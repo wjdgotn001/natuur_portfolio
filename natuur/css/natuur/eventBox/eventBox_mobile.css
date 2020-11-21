@@ -16,8 +16,8 @@
       position: relative; overflow: hidden;
       width:205px; height:303px; left:50%; 
       transform: translateX(-50%);}
-    .event_area > ul { position: absolute; width:600%; height:100%; }
-    .event_area li { float: left; width:205px; height:100%; }
+    .event_area > ul { width:600%; height:100%; }
+    .event_area li { float: left; width:16%; height:100%; }
     .event_area dt { width:100%; height:205px; margin-bottom:15px; }
     .event_area dd { width:100%; height:38px; } 
     .event_area dd > a { 
