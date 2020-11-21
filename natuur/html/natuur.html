@@ -34,43 +34,6 @@
 
     <div class="menuBox_wrap">
      <article id="menuBox">
-      <h2>menu</h2>
-      <div class="menu_area">
-      <ul class="clearfix">
-        <li class="menu_01">
-          <dl>
-            <dt>icecream</dt>
-            <dd>자연을 담은 <br /> 아이스크림, 나뚜루</dd>
-            <dd><a href="#">더보기<i class="fas fa-plus"></i></a></dd>
-          </dl>
-          <div class="menu_img"><span class="hidden_context">나뚜루 아이스크림 메뉴</span></div>
-        </li>
-        <li class="menu_02">
-          <dl>
-            <dt>dessert</dt>
-            <dd>앙증맞고 아기자기한 <br /> 디저트!</dd>
-            <dd><a href="#">더보기<i class="fas fa-plus"></i></a></dd>
-          </dl>
-          <div class="menu_img"><span class="hidden_context">나뚜루 디저트 메뉴</span></div>
-        </li>
-        <li class="menu_03">
-          <dl>
-            <dt>beverage</dt>
-            <dd>더욱 달콤하고 상큼한 <br /> 다양한 아이스크림!</dd>
-            <dd><a href="#">더보기<i class="fas fa-plus"></i></a></dd>
-          </dl>
-          <div class="menu_img"><span class="hidden_context">나뚜루 음료 메뉴</span></div>
-        </li>
-        <li class="menu_04">
-          <dl>
-            <dt>icecream cake</dt>
-            <dd>감성이 통통 튀는 <br /> 달콤한 케익! </dd>
-            <dd><a href="#">더보기<i class="fas fa-plus"></i></a></dd>
-          </dl>
-          <div class="menu_img"><span class="hidden_context">나뚜루 케익 메뉴</span></div>
-        </li>
-      </ul>
-    </div>
      </article>
     </div> <!-- menuBox_wrap -->
 
@@ -112,30 +75,34 @@
       </ul>
 
       <div class="family_site">
-        <select name="family_site" id="family_site">
-          <optgroup label="롯데제과">
-            <option value="http://www.lotteconf.co.kr">-롯데제과</option>
-            <option value="http://www.natuur.co.kr">-나뚜루</option>
-            <option value="http://www.lottehealth1.com">-헬스원</option>
-            <option value="http://www.pepero.co.kr">-빼빼로</option>
-          </optgroup>
-          <optgroup label="롯데칠성음료">
-            <option value="http://company.lottechilsung.co.kr">-롯데칠성음료</option>
-            <option value="http://mall.lottechilsung.co.kr/index.html">롯데칠성몰</option>
-          </optgroup>
-          <optgroup label="롯데푸드">
-            <option value="http://www.lottefood.co.kr">-롯데푸드</option>
-            <option value="http://www.pasteur.co.kr">-파스퇴르</option>
-            <option value="http://www.pasteurmall.com">-파스퇴르몰</option>
-            <option value="http://www.pasteuri.com">-파스퇴르아이</option>
-            <option value="http://www.en-nature.co.kr">-엔네이처</option>
-            <option value="http://www.uiseongham.co.kr">-의성마늘햄</option>
-            <option value="http://www.lottevienna.co.kr">-롯데비엔나</option>
-
-          </optgroup>
-          
-        </select>
-        <a href="#">검색</a>
+        <div class="family">
+          <select name="family_site" id="family_site">
+            <span class="hidden_context">패밀리 사이트 정보</span>
+            <optgroup label="롯데제과">
+              <option value="http://www.lotteconf.co.kr">-롯데제과</option>
+              <option value="http://www.natuur.co.kr">-나뚜루</option>
+              <option value="http://www.lottehealth1.com">-헬스원</option>
+              <option value="http://www.pepero.co.kr">-빼빼로</option>
+            </optgroup>
+            <optgroup label="롯데칠성음료">
+              <option value="http://company.lottechilsung.co.kr">-롯데칠성음료</option>
+              <option value="http://mall.lottechilsung.co.kr/index.html">롯데칠성몰</option>
+            </optgroup>
+            <optgroup label="롯데푸드">
+              <option value="http://www.lottefood.co.kr">-롯데푸드</option>
+              <option value="http://www.pasteur.co.kr">-파스퇴르</option>
+              <option value="http://www.pasteurmall.com">-파스퇴르몰</option>
+              <option value="http://www.pasteuri.com">-파스퇴르아이</option>
+              <option value="http://www.en-nature.co.kr">-엔네이처</option>
+              <option value="http://www.uiseongham.co.kr">-의성마늘햄</option>
+              <option value="http://www.lottevienna.co.kr">-롯데비엔나</option>
+            </optgroup>
+            
+          </select>
+        </div>
+        <div class="search">
+          <a href="#">바로가기</a>
+        </div>
       </div>
 
       <span>서울특별시 영등포구 양평로21길 10, 롯데제과	
@@ -156,6 +123,7 @@
   <script src="../js/src/natuur_mobile_viewBox.js"></script>
   <script src="../js/src/natuur_eventBox.js"></script>
   <script src="../js/src/natuur_pc_eventBox.js"></script>
+  <script src="../js/src/natuur_menuBox.js"></script>
   
 </body>
 </html>

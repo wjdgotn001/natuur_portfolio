@@ -41,6 +41,13 @@
     width:100%; height:auto; color:var(--color-black); 
     padding:15px 0; text-indent: 10px; font-size:16px; }
   #headBox .gnbBox dd > a { padding:0.7rem 0; margin-bottom: 0.3rem; box-sizing: border-box;  height:auto; }
+  /* gnbBox hover */
+  .gnbBox a:hover, 
+  .gnbBox a:focus { color:var(--color-main);}
+
+
+
+
 
   /*gnb_etc영역*/
   #headBox .gnb_etc { float: right; width:110px; height:auto; margin-top:10px; }

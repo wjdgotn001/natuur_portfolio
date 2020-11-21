@@ -80,12 +80,12 @@ html,body { width:100%; height:auto; }
     text-align: center; text-transform: uppercase; 
     font-size: 40px; font-family:var(--font-malgun); }
 
-.event_area li:nth-of-type(1) dt > a { background-image: url(../../../img/event_Img01.JPG);}
-.event_area li:nth-of-type(2) dt > a { background-image: url(../../../img/event_Img02.JPG);}
-.event_area li:nth-of-type(3) dt > a { background-image: url(../../../img/event_Img03.JPG);}
-.event_area li:nth-of-type(4) dt > a { background-image: url(../../../img/event_Img_pc_04.jpg);}
-.event_area li:nth-of-type(5) dt > a { background-image: url(../../../img/event_Img_pc_05.jpg);}
-.event_area li:nth-of-type(6) dt > a { background-image: url(../../../img/event_Img_pc_06.jpg);}    
+.event_area li.event_01 dt > a { background-image: url(../../../img/event_img_pc_01.JPG);}
+.event_area li.event_02 dt > a { background-image: url(../../../img/event_img_pc_02.JPG);}
+.event_area li.event_03 dt > a { background-image: url(../../../img/event_img_pc_03.JPG);}
+.event_area li.event_04 dt > a { background-image: url(../../../img/event_img_pc_04.jpg);}
+.event_area li.event_05 dt > a { background-image: url(../../../img/event_img_pc_05.jpg);}
+.event_area li.event_06 dt > a { background-image: url(../../../img/event_img_pc_06.jpg);}    
 
 .event_area dl { font-style:3rem; }
 
@@ -136,6 +136,7 @@ html,body { width:100%; height:auto; }
     display:block; width: 100%; height: 100%; 
     text-align:center;
     border-radius:20px; }
+.menu_area dd:nth-of-type(2):hover i { color:var(--color-main); }
 
 .menu_area li:nth-of-type(1) .menu_img { background-image: url(../../../img/icecream.jpg); }
 .menu_area li:nth-of-type(2) .menu_img { background-image: url(../../../img/desert.jpg); }
@@ -193,4 +194,15 @@ html,body { width:100%; height:auto; }
 #footBox { 
     width:100%; height:auto;
     background-color:#ededed; }
+
+.family_site .family{ float: left;}
+.family_site .search{ float: right; box-sizing: border-box;}
+
+.search { border:1px solid #333; }
+
+.search > a { 
+    display:block; width: 100%; height: 100%; 
+    font-size: 15px; text-align: center;  }
+
+    
 

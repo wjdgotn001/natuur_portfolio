@@ -4,19 +4,27 @@
     #footBox { 
         position: relative;
         height:240px; 
-        padding:3.191489vw 10.851063vw 11.914893vw /*30px 102px 112px*/; box-sizing: border-box; }
+        padding:3.191489vw 5.319184vw 11.914893vw /*30px 50px 112px*/; box-sizing: border-box; }
     .footer_menu { 
         float:left;
-        width:57.446808vw; max-width:540px; height:100px; }
-    .footer_menu > li { font-size:13px; font-family:var(--font-malgun); margin-bottom:8px; }
+        width:240px; height:100px; }
+    .footer_menu a { display:block; width: 100%; height: 100%; margin-bottom:8px; }
+    .footer_menu > li { 
+        width:250px; 
+        font-size:13px; font-family:var(--font-malgun); margin-bottom:8px; }
 
     .family_site { 
         float: right; 
-        width:19.148936vw; max-width:180px; height:40px; }
+        position: absolute; right:50px;
+        width:200px; height:40px; }
 
     #footBox span { 
-        position: absolute; font-size:13px; font-family:var(--font-malgun);
-    }
-    #footBox span:nth-of-type(1) { left:10.851063vw; bottom:85px;  }
-    #footBox span:nth-of-type(2) { left:10.851063vw; bottom:50px; text-transform: uppercase; }
+        position: absolute; 
+        font-size:13px; font-family:var(--font-malgun); }
+    #footBox span:nth-of-type(1) { left:5.319184vw; bottom:85px;  }
+    #footBox span:nth-of-type(2) { left:5.319184vw; bottom:50px; text-transform: uppercase; }
+
+    .family select { width:130px; height:30px; }
+    .search{ width:60px; height:30px; }
+    .search > a { line-height:30px; font-size:13px;  }
 }

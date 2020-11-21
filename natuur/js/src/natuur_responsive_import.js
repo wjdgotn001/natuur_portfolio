@@ -15,9 +15,6 @@ var headBox = $('#headBox');
 var viewBox = $('#viewBox');
 var eventBox = $('#eventBox');
 var menuBox = $('#menuBox');
-var searchBox = $('#searchBox');
-var snsBox = $('#snsBox');
-var footBox = $('#footBox');
 
 // import file=============================
 var headImport = function(){
@@ -35,23 +32,27 @@ var eventImport = function(){
 var eventPcImport = function(){
     eventBox.append('<script src="../js/src/natuur_pc_eventBox.js"></script>');
 };
-
-
+var menuBoxImport = function(){
+    menuBox.append('<script src="../js/src/natuur_menuBox.js"></script>');
+};
 // ========================================
 if(nowW === deviceType[0]){
     headBox.load( url + 'headBox.html', headImport );
     viewBox.load( url + 'viewBox.html', viewImport );
     eventBox.load( url + 'eventBox.html' , eventImport );
+    menuBox.load( url + 'menuBox.html' , menuBoxImport );
     // viewBox.load( url + '' );
 }else if(nowW === deviceType[1]){
     headBox.load( url + 'headBox.html', headImport );
     viewBox.load( url + 'viewBox.html', viewImport );
     eventBox.load( url + 'eventBox.html' , eventImport );
+    menuBox.load( url + 'menuBox.html' );
 }
 else{
     headBox.load( pcUrl + 'pc.headBox.html', headPcImport );
     viewBox.load( url + 'viewBox.html', viewImport );
     eventBox.load( url + 'eventBox.html' , eventPcImport );
+    menuBox.load( url + 'menuBox.html' , menuBoxImport );
 }
 
 
