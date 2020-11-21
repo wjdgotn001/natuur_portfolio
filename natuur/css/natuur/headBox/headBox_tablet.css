@@ -6,11 +6,13 @@
   height:250px; padding:20px 30px 0; box-sizing: border-box; }
 #unbBox {
   position: absolute; top:20px; left:30px;
-  width:261px; height:30px; background-color:var(--gray_05); }
+  width:261px; height:30px; }
 #headBox > h1 { 
   float: left; 
   border-radius:100px; margin-top:70px;
-  width:21.276595vw; min-width:180px; height:100px; background-color:var(--gray_03); }
+  width:190px; height:100px; 
+  background-image: url(../../../img/tablet_logo.png);
+ }
 
 /* #unbBox영역 */
 #unbBox > ul { width:100%; height:auto; }
@@ -20,42 +22,69 @@
 /* gnbBox영역 */
  #gnbBox_wrap { 
   float: right; margin-top:0;
-  width:50px; height:50px; background-color:var(--gray_06);}
+  width:50px; height:50px; }
 #gnbBox_wrap > .gnb_open_btn { 
   width: 100%; height: 100%; 
   font-size:2rem; color:#333; }
 .gnb_open_btn > button { display:block; width: 100%; height: 100%; }
-.gnb_open_btn i { text-align:center; font-size:2rem; color:#333; }
+.gnb_open_btn i { text-align:center; font-size:3rem; color:var(--color-main); }
 
 /* gnbBox를 클릭했을 때 켜지는 메뉴 */
-.gnbBox { display:none;
-  position: fixed; top:0; right:0; z-index:900;
-  padding-top:30px; box-sizing: border-box;
-  width:80%; height:auto; background-color: var(--gray_06);}
- .gnb_close_btn { display:none;
-   position: fixed; top:0; left:20px; z-index:900;
+.gnbBox {
+  position: fixed; top:0; right:-100%; z-index:900;
+  box-sizing: border-box; width:80%; height:auto; 
+  background-color: var(--color-point);
+  transition:all 500ms linear; }
+ .gnbBox .gnbBox_menu { width: 100%; height:auto; }
+ .gnbBox.action { right:0;}
+ .gnb_close_btn { 
+   position: absolute; top:0; left:-50px; z-index:900;
    width:50px; height:50px; }
  .gnb_close_btn > button { display:block; width: 100%; height: 100%; }
  .gnb_close_btn i { text-align:center; font-size:2rem; color:#333 }
  .gnbBox li { 
-   float: left; width: 100%; height:auto; 
-   background-color: blueviolet; }
+   float: left; width: 100%; height:auto; }
  .gnbBox dl { 
    width: 100%; height:auto; background-color: #fff; }
  .gnbBox dt { 
    width: 100%; height:50px; 
    border-top:1px solid var(--color-gray);
    border-bottom:1px solid var(--color-gray);
+   padding-right:31.914893vw /*300px*/;
    font-size:15px; font-family:var(--font-nanum); line-height:50px;
-   text-indent:50px; }
+   text-indent:80px; }
+ .gnbBox dt.action i { color:var(--color-main);}
  .gnbBox dd { 
+   display: none;
    width: 100%; height:auto; 
    font-size:12px; font-family:var(--font-malgun); line-height:25px;
-   text-indent:50px; }
+   text-indent:80px; }
  .gnbBox dt i { 
-   float: right; line-height:50px; margin-right:40px; font-size:1.5rem; }
+   float: right; line-height:50px; margin-right:100px; font-size:1.5rem; }
 
 
+   /* 
+    **form 영역**
+    1.form내부에 들어가는 input,label..inline-block요소(사이즈를 가질 수 있지만 옆으로 늘어나는요소)
+    2.form내부에 p,hn,dl,ol,ul...모두 들어갈 수 있다.
+    */
+    form { width:100%; height:auto; min-height:40px; }
+
+    fieldset { 
+      height:auto; line-height:40px; 
+      padding:2.173913vw; box-sizing: border-box;
+      text-align: center;
+       }
+ 
+    fieldset > input { width:80%; max-width:250px; height:30px; border-radius:5px; }
+ 
+    fieldset button { 
+      width:11.956521vw; max-width:60px; height:30px; 
+      border-radius:5px; border:1px solid var(--color-white);
+      color:var(--color-white); font-family:var(--font-nanum);
+      font-size:12px; box-sizing: border-box;
+      }
+ 
 
 
 }

@@ -6,7 +6,8 @@
 /* indicator */
 .view_indicator { 
   position: absolute; left:50%; bottom:19px; transform: translateX(-50%); z-index: 1000;
-  width:120px; height:21px; background-color: var(--gray_01); 
+  width:120px; height:21px; 
   padding:5px 12px; box-sizing: border-box; }
 .view_indicator li { float: left; width:11px; height:11px; margin-right:10px; }
+
 }

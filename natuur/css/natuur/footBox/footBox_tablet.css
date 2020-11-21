@@ -7,12 +7,12 @@
         padding:3.191489vw 10.851063vw 11.914893vw /*30px 102px 112px*/; box-sizing: border-box; }
     .footer_menu { 
         float:left;
-        width:57.446808vw; max-width:540px; height:100px; background-color: var(--gray_03); }
+        width:57.446808vw; max-width:540px; height:100px; }
     .footer_menu > li { font-size:13px; font-family:var(--font-malgun); margin-bottom:8px; }
 
     .family_site { 
         float: right; 
-        width:19.148936vw; max-width:180px; height:40px; background-color: var(--gray_03); }
+        width:19.148936vw; max-width:180px; height:40px; }
 
     #footBox span { 
         position: absolute; font-size:13px; font-family:var(--font-malgun);

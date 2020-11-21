@@ -2,16 +2,17 @@
 
 @media screen and (min-width:1025px) {
   #headBox { 
-    position: relative; width:1420px; height:500px; margin:auto;
+    position: relative; z-index: 1000; width:1420px; height:500px; margin:auto;
     padding:40px 10px 60px; box-sizing: border-box; }
   #headBox #unbBox { 
     position: absolute; top:40px; right:10px;
     width:355px; height:40px;
-    margin-bottom:20px; background-color:var(--gray_05);  }
+    margin-bottom:20px; }
   #headBox > h1 { 
-    position: absolute; top:100px; left:50%; z-index: 100;
-    width:400px; height:200px; margin-bottom:70px; transform: translateX(-50%); border-radius:100px;
-    background-color:var(--gray_03); }
+    position: absolute; top:70px; left:50%; z-index: 100;
+    width:300px; height:150px; margin-bottom:70px; 
+    transform: translateX(-50%); border-radius:100px;
+    background-image: url(../../../img/logo.png); }
 
   /*unbBox영역 */
   #unbBox > ul { width:100%; height:auto; }
@@ -20,22 +21,45 @@
   .gnbBox li { float: left; width:16.666666%; height:auto; }
 
   /*gnbBox영역 */
-  #headBox #gnbBox_wrap { 
-    position: absolute; right:10px; bottom:60px;
-    width:1100px; height:50px; }
-  #gnbBox_wrap button { display:none; }
-  #headBox .gnbBox { float: left; width:780px; height:auto; background-color: var(--gray_03); }
+  #gnbBox_wrap { 
+    position: absolute; left:200px; bottom:165px; 
+    width:auto; height:60px; border-top:1px solid #333;}
+  .gnbBox { width:auto; height:auto; background-color: var(--color-white); }
+  .gnbBox_menu { float: left; width:auto; min-width:700px; height: 100%; margin-right:50px; }
+  .gnbBox_menu > li { float: left; width:140px; height:100%; margin-right:15px; }
+  .gnbBox_menu > li:last-child { margin-right:0; }
+  #gnbBox_wrap::before { 
+    display:block; content:" "; 
+    position: absolute; left: 0; bottom: 0; 
+    width: 100%; height: 0; border-top:1px solid #333; }
+
   .gnbBox > li { float: left; width:16.666666%; height:auto; }
   .gnbBox dl { width:100%; height:auto; }
-  .gnbBox dt { position: relative; width:100%; height:50px; }
-  .gnbBox dt > a { font-size:20px; text-align: center; line-height:50px; }
-  .gnbBox dd { display:none; width:100%; height:auto; }
-  .gnbBox i { display:none; }
-  .gnb_open_btn { display:none; }
-  .gnb_close_btn { display:none; }
+  .gnbBox dt { position: relative; width:100%; height:60px; }
+  .gnbBox dt > a { font-size:20px; text-align: center; line-height:60px; }
+  .gnbBox dd { 
+    width:100%; height:auto; color:var(--color-black); 
+    padding:15px 0; text-indent: 10px; font-size:16px; }
+  #headBox .gnbBox dd > a { padding:0.7rem 0; margin-bottom: 0.3rem; box-sizing: border-box;  height:auto; }
 
   /*gnb_etc영역*/
-  #headBox .gnb_etc { float: right; width:112px; height:100%; }
-  .gnb_etc > li { float: left; width:50px; height:50px; margin-right:10px; background-color: var(--gray_06);  }
-  .gnb_etc > li:last-child { margin-right:0; }
+  #headBox .gnb_etc { float: right; width:110px; height:auto; margin-top:10px; }
+  .gnb_etc > li { float: left; width: 40px; height:40px; margin-right:10px; }
+  .gnb_etc > li:nth-child(1) {
+     background-image: url(../../../img/ico_facebook.png);
+     background-repeat: no-repeat;
+     background-position: 50% 50%;
+     background-size: contain;
+    }
+  .gnb_etc > li:nth-child(2) { 
+    background-image: url(../../../img/ico_instagram.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+    margin-right:0; }
+
+  /* gnbBox -> hover의 경우 */
+  
+
+
 }

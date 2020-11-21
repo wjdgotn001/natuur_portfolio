@@ -1,7 +1,9 @@
 /* laptop 1440px / design 1420px  */
 
 @media screen and (min-width:1025px) {
-    #searchBox { width:1420px; height:400px; margin:auto; padding-top:80px; }
+    #searchBox {
+         background-attachment: fixed;
+         width:1420px; height:400px; margin:auto; padding-top:100px; box-sizing: border-box; }
     #searchBox > p { font-size:30px; }
 
     .store_search { 
