@@ -20,7 +20,7 @@
   <!-- layout -->
   <div id="wrap">
     <div class="headBox_wrap">
-     <header id="headBox">
+     <header id="headBox" class="clearfix">
       <h1 class="hidden_wrap"><a href="#"><span>natuur</span></a></h1>
         <nav id="unbBox">
           <h2 class="hidden_context">natuur user navigation</h2>
@@ -32,10 +32,24 @@
         </nav>
         <nav id="gnbBox_wrap">
           <h2 class="hidden_context">natuur global navigation</h2> 
+          <div class="gnb_open_btn">
+            <button type="button">
+              <i class="fas fa-bars"></i><span class="hidden_context">global navigation 열기버튼</span>
+            </button>
+          </div>
+
+          <div class="gnb_close_btn">
+            <button type="button">
+              <i class="fas fa-times"></i><span class="hidden_context">global navigation 닫기버튼</span>
+            </button>
+          </div>
+
           <ul class="gnbBox clearfix">
             <li>
               <dl>
-                <dt><a href="#">나뚜루</a></dt>
+                <dt><a href="#">나뚜루<i class="fas fa-angle-down"></i>
+                  <span class="hidden_context">나뚜루 메뉴 열기</span>
+                </a></dt>
                 <dd>
                   <a href="#">나뚜루 소개</a>
                   <a href="#">광고 이야기</a>
@@ -45,7 +59,7 @@
             </li>
             <li>
               <dl>
-                <dt><a href="#">플래그십</a></dt>
+                <dt><a href="#">플래그십<i class="fas fa-angle-down"></i></a></dt>
                 <dd>
                   <a href="#">store</a>
                   <a href="#">menu</a>
@@ -55,7 +69,7 @@
             </li>
             <li>
               <dl>
-                <dt><a href="#">메뉴</a></dt>
+                <dt><a href="#">메뉴<i class="fas fa-angle-down"></i></a></dt>
                 <dd>
                   <a href="#">신제품/인기제품</a>
                   <a href="#">완제품</a>
@@ -65,7 +79,7 @@
             </li>
             <li>
               <dl>
-                <dt><a href="#">매장</a></dt>
+                <dt><a href="#">매장<i class="fas fa-angle-down"></i></a></dt>
                 <dd>
                   <a href="#">매장 찾기</a>
                   <a href="#">가맹점 모집</a>
@@ -76,7 +90,7 @@
             </li>
             <li>
               <dl>
-                <dt><a href="#">이벤트</a></dt>
+                <dt><a href="#">이벤트<i class="fas fa-angle-down"></i></a></dt>
                 <dd>
                   <a href="#">진행중인 이벤트</a>
                   <a href="#">지난 이벤트</a>
@@ -87,7 +101,7 @@
               </li>
             <li>
               <dl>
-                <dt><a href="#">sns</a></dt>
+                <dt><a href="#">sns<i class="fas fa-angle-down"></i></a></dt>
                 <dd>
                   <a href="#">인스타그램</a>
                   <a href="#">페이스북</a>
@@ -212,18 +226,48 @@
     <div class="searchBox_wrap">
      <article id="searchBox">
       <h2 class="hidden_context">natuur 매장 찾기</h2>
+      <p>나뚜루의 전국 매장을 한 눈에 찾아보실 수 있습니다.</p>
+      <div class="store_search">
+        <a href="#">
+         <span>매장 검색<i class="fas fa-search"></i></span>
+        </a>
+      </div>
      </article>
     </div> <!-- searchBox_wrap -->
 
     <div class="snsBox_wrap">
      <article id="snsBox">
-      <h2 class="hidden_context">natuur sns 소식</h2>
+      <h2>natuur instagram</h2>
+      <span class="hidden_context">natuur sns 소식</span>
+
+      <ul class="sns_image clearfix">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
      </article>
     </div> <!-- snsBox_wrap -->
 
     <div class="footBox_wrap">
      <footer id="footBox">
       <h2 class="hidden_context">natuur 회사정보</h2>
+      <ul class="footer_menu">
+        <li><a href="#">가맹점 모집</a></li>
+        <li><a href="#">개인정보처리방침</a></li>
+        <li><a href="#">영상정보 처리기기 운영 및 관리 방침</a></li>
+        <li><a href="#">이메일무단수집금지</a></li>
+      </ul>
+
+      <div class="family_site">
+        <select name="" id=""></select>
+        <a href="#"></a>
+      </div>
+
+      <span>서울특별시 영등포구 양평로21길 10, 롯데제과	
+        &#40;주&#41;나뚜루영업팀</span> 
+      <span>copyright 2013 lotte confectionery co.ltd.all.rights reserved</span>
      </footer>
     </div> <!-- footBox_wrap -->
 

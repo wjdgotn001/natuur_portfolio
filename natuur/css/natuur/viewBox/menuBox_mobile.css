@@ -1,0 +1,30 @@
+/* menuBox_mobile.css */
+
+@media screen and (max-width:480px) {
+  #menuBox { height:1240px; padding:48px 0 104px; box-sizing: border-box; }
+  #menuBox > h2 { margin-bottom:36px; }
+
+  .menu_area { 
+    width:82.608695vw; max-width:380px; height:960px; margin: 0 auto; background-color: var(--gray_06);}
+  .menu_area > ul { width: 100%; height: 100%; }
+  .menu_area li { 
+    float: left; width:100%; height:213px; padding:17px 2.826027vw /*13px*/ 4.347826vw /*20px*/; box-sizing: border-box;
+    margin-bottom:50px; background-color: var(--gray_01); }
+  .menu_area li:last-child { margin-bottom:0; }
+  .menu_area dl { float: left; width: 100%; height: 100%; }
+  .menu_area dt { 
+    width:100px; text-transform: uppercase; font-size:17px; 
+    font-family:var(--font-malgun); margin-bottom:16px; }
+  .menu_area dd:nth-of-type(1) { 
+    width:140px; font-size:11px; font-family:var(--font-nanum); margin-bottom:13px; } 
+  .menu_area dd:nth-of-type(2) { width:95px; height:34px;  }
+  .menu_area dd:nth-of-type(2) > a { 
+    display:block; width: 100%; height: 100%; 
+    text-align: left; text-indent:1rem; line-height:34px; font-size:14px;
+    border-radius:20px; background-color: var(--gray_04); }
+
+  .menu_img { 
+    float: right; width:40vw; min-width:105px; height:26.086956vw; min-height:120px;
+    margin-top:-165px; background-color: var(--gray_06); } 
+  .menu_img > a { display:block; width: 100%; height: 100%; }
+}

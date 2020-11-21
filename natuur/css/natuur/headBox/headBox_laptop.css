@@ -12,21 +12,28 @@
     position: absolute; top:100px; left:50%; z-index: 100;
     width:400px; height:200px; margin-bottom:70px; transform: translateX(-50%); border-radius:100px;
     background-color:var(--gray_03); }
+
   /*unbBox영역 */
   #unbBox > ul { width:100%; height:auto; }
-  #unbBox  li { float: left; width:33%; height:auto; border-left:1px solid #ddd;   }
+  #unbBox li { float: left; width:32%; height:auto; border-left:1px solid #ddd;   }
   #unbBox a { line-height:40px; }
   .gnbBox li { float: left; width:16.666666%; height:auto; }
+
   /*gnbBox영역 */
   #headBox #gnbBox_wrap { 
     position: absolute; right:10px; bottom:60px;
     width:1100px; height:50px; }
+  #gnbBox_wrap button { display:none; }
   #headBox .gnbBox { float: left; width:780px; height:auto; background-color: var(--gray_03); }
   .gnbBox > li { float: left; width:16.666666%; height:auto; }
   .gnbBox dl { width:100%; height:auto; }
   .gnbBox dt { position: relative; width:100%; height:50px; }
-  .gnbBox dt > a { line-height:50px; }
-  .gnbBox dd { display:none; width:100%; height:auto;  }
+  .gnbBox dt > a { font-size:20px; text-align: center; line-height:50px; }
+  .gnbBox dd { display:none; width:100%; height:auto; }
+  .gnbBox i { display:none; }
+  .gnb_open_btn { display:none; }
+  .gnb_close_btn { display:none; }
+
   /*gnb_etc영역*/
   #headBox .gnb_etc { float: right; width:112px; height:100%; }
   .gnb_etc > li { float: left; width:50px; height:50px; margin-right:10px; background-color: var(--gray_06);  }

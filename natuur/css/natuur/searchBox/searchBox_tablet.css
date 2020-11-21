@@ -1,0 +1,18 @@
+/* Tablet 1024px  / design 940px  */
+
+@media screen and (min-width:481px) and (max-width:1024px) {
+    #searchBox { 
+        height:37.234042vw; max-height:350px; 
+        padding-top:5.319148vw /*50px*/; box-sizing: border-box; }
+    #searchBox > p { font-size:18px; }
+
+    .store_search { 
+        width:28.723404vw; max-width:270px; height:79px; margin:auto; 
+        border-radius:40px; margin-top: 6.382978vw/*60px*/; 
+        padding:0 2.659574vw /*0 25px*/; box-sizing: border-box; 
+        background-color:var(--color-white); }
+    .store_search > a { line-height:79px; }
+    .store_search span { font-size:18px; } 
+    
+
+}

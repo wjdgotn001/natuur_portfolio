@@ -3,17 +3,59 @@
 @media screen and (min-width:481px) and (max-width:1024px) {
 #headBox { 
   position: relative;
-  height:300px; padding:29px 42px 75px; box-sizing: border-box; }
-#headBox #unbBox {
-  position: absolute; top:29px; 
+  height:250px; padding:20px 30px 0; box-sizing: border-box; }
+#unbBox {
+  position: absolute; top:20px; left:30px;
   width:261px; height:30px; background-color:var(--gray_05); }
+#headBox > h1 { 
+  float: left; 
+  border-radius:100px; margin-top:70px;
+  width:21.276595vw; min-width:180px; height:100px; background-color:var(--gray_03); }
+
 /* #unbBox영역 */
 #unbBox > ul { width:100%; height:auto; }
 #unbBox li { float: left; width:32%; height:auto; border-left:1px solid #ddd; }
 #unbBox a { line-height:30px; }
-#gnbBox_wrap { display:none; }
-#headBox > h1 { 
-  position: absolute; top:95px; border-radius:100px;
-  width:200px; height:100px; background-color:var(--gray_03); }
+
+/* gnbBox영역 */
+ #gnbBox_wrap { 
+  float: right; margin-top:0;
+  width:50px; height:50px; background-color:var(--gray_06);}
+#gnbBox_wrap > .gnb_open_btn { 
+  width: 100%; height: 100%; 
+  font-size:2rem; color:#333; }
+.gnb_open_btn > button { display:block; width: 100%; height: 100%; }
+.gnb_open_btn i { text-align:center; font-size:2rem; color:#333; }
+
+/* gnbBox를 클릭했을 때 켜지는 메뉴 */
+.gnbBox { display:none;
+  position: fixed; top:0; right:0; z-index:900;
+  padding-top:30px; box-sizing: border-box;
+  width:80%; height:auto; background-color: var(--gray_06);}
+ .gnb_close_btn { display:none;
+   position: fixed; top:0; left:20px; z-index:900;
+   width:50px; height:50px; }
+ .gnb_close_btn > button { display:block; width: 100%; height: 100%; }
+ .gnb_close_btn i { text-align:center; font-size:2rem; color:#333 }
+ .gnbBox li { 
+   float: left; width: 100%; height:auto; 
+   background-color: blueviolet; }
+ .gnbBox dl { 
+   width: 100%; height:auto; background-color: #fff; }
+ .gnbBox dt { 
+   width: 100%; height:50px; 
+   border-top:1px solid var(--color-gray);
+   border-bottom:1px solid var(--color-gray);
+   font-size:15px; font-family:var(--font-nanum); line-height:50px;
+   text-indent:50px; }
+ .gnbBox dd { 
+   width: 100%; height:auto; 
+   font-size:12px; font-family:var(--font-malgun); line-height:25px;
+   text-indent:50px; }
+ .gnbBox dt i { 
+   float: right; line-height:50px; margin-right:40px; font-size:1.5rem; }
+
+
+
 
 }

@@ -1,0 +1,26 @@
+/* laptop 1440px / design 1420px  */
+
+@media screen and (min-width:1025px) {
+  #footBox {
+    position: relative;
+    width:1420px; height:440px; margin:auto; 
+    padding:7.042253vw 2.112676vw 21.276595vw /*100px 30px 200px*/; box-sizing: border-box; } 
+  .footer_menu { 
+      float: left;
+      width:auto;  height:auto; }
+  .footer_menu > li { 
+      float: left; margin-bottom:15px;
+      font-size:15px; font-family:var(--font-malgun); }
+  .footer_menu > li::after { content:"|"; padding:0 0.352112vw  /*5px*/; }
+  .footer_menu > li:last-child::after { display:none; }
+  .family_site { 
+      position: absolute; right:3.521126vw /*50px*/;
+      width:245px; height:40px;
+      float: right; background-color: azure;  }
+  #footBox span { 
+      position: absolute;
+      left:2.112676vw /*30px*/; font-size:15px; font-family:var(--font-malgun); }
+  #footBox span:nth-of-type(1) { top:150px; }
+  #footBox span:nth-of-type(2) { top:180px; text-transform: uppercase; }
+
+}

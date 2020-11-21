@@ -1,0 +1,5 @@
+/* mobile 480px  / design 460px  */
+
+@media screen and (max-width:480px) {
+    #snsBox { display:none; }
+}
