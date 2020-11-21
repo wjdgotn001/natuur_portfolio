@@ -1,0 +1,21 @@
+/* 공통 */
+html,body { width:100%; height:100%; }
+#wrap { width: 100%; height:auto; min-height:500px; }
+.headBox_wrap,
+.eventBox_wrap,
+.menuBox_wrap,
+.searchBox_wrap, 
+.snsBox_wrap, 
+.footBox_wrap { width:100%; height:auto; background-color:var(--color-dark_gray); }
+/* headBox */
+#headBox { width:100%; height:auto; background-color:var(--gray_01);}
+#headBox a { display:block; width: 100%; height: 100%; }
+#unbBox a { font-size:13px; text-align:center; font-family:var(--font-nanum); }
+.gnbBox dt > a { font-size:20px; text-align: center; font-weight:bold; font-family:var(--font-malgun);}
+/* viewBox */
+#viewBox { width:100%; height:auto; background-color:var(--gray_02);}
+#eventBox { width:100%; height:auto; background-color:var(--gray_03);}
+#menuBox { width:100%; height:auto; background-color:var(--gray_04);}
+#searchBox { width:100%; height:auto; background-color:var(--gray_05);}
+#snsBox { width:100%; height:auto; background-color:var(--gray_06);}
+#footBox { width:100%; height:auto; background-color:var(--gray_05);}

@@ -1,0 +1,25 @@
+
+
+:root 
+{ 
+  --color-main:#005629;
+  --color-white:#fff;
+  --color-black:#333;
+  --color-dark_gray:#666;
+  --color-gray:#9d9d9d;
+  --color-point:#c54d2c;
+
+  --font-nanum:'NanumGothic';
+  --font-malgun:'Malgun Gothic';
+  --border-line1:1px solid #333;
+
+  --gray_01:#e9e9e9;
+  --gray_02:#d3d3d3;
+  --gray_03:#bdbebd;
+  --gray_04:#a9a9a9;
+  --gray_05:#949494;
+  --gray_06:#808080;
+
+
+}
+

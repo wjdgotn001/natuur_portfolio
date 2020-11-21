@@ -1,0 +1,20 @@
+/* mobile 480px  / design 460px  */
+
+@media screen and (max-width:480px) { 
+  #headBox { 
+    position: relative;
+    height:140px; padding:16px 10px 34px; box-sizing: border-box;  }
+  #headBox #unbBox { 
+    position: absolute; top:16px; 
+    width:auto; height:auto; background-color: var(--gray_05); }
+  /* #unbBox영역 */
+  #unbBox > ul { width:100%; height:auto; }
+  #unbBox li { float: left; width:70px; height:auto; border-left:1px solid #ddd; }
+  #gnbBox_wrap { display:none; }
+  #headBox > h1 { 
+    position: absolute; top:43px;
+    width:126px; height:58px; border-radius:100px; background-color: var(--gray_03); }
+  /* #headBox #gnbBox { width:50px; height:50px; margin-top:30px; background-color:var(--gray_06);} */
+
+
+}
