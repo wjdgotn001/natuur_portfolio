@@ -59,9 +59,9 @@
    width: 100%; height:auto; 
    font-size:12px; font-family:var(--font-malgun); line-height:25px;
    text-indent:80px; }
+ .gnbBox dd > a { padding:3px 0; box-sizing: border-box; height:auto; }
  .gnbBox dt i { 
    float: right; line-height:50px; margin-right:100px; font-size:1.5rem; }
-
 
    /* 
     **form 영역**

@@ -65,13 +65,4 @@
     gnbBoxFindDd.stop().slideUp();
   });
 
-
-
-
-
-
- 
-
-
-
 })(jQuery);

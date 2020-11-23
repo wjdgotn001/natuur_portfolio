@@ -54,10 +54,17 @@
      text-indent:30px; }
    .gnbBox dt.action i { color:var(--color-main);}
    .gnbBox dd { 
-     display: none;
+     display:none;
      width: 100%; height:auto; 
+     padding:5px 0 5px;
      font-size:12px; font-family:var(--font-malgun); line-height:25px;
      text-indent:30px; }
+
+   .gnbBox dd > a { 
+     display:block;
+     width:100%; height:25px; line-height:25px;
+     box-sizing: border-box; }
+
    .gnbBox dt i { 
      float: right; line-height:50px; margin-right:40px; font-size:1rem; }
 

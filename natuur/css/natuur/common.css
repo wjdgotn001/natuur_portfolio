@@ -16,25 +16,23 @@ html,body { width:100%; height:auto; }
     width:100%; height:auto; 
     background-color:var(--color-white);}
 
-#headBox a { 
-    display:block; width: 100%; height: 100%; }
-
 #headBox > h1 {
     background-position:50% 50%;
     background-repeat:no-repeat;
     background-size:95%; }
-    
 
 #unbBox a { 
+    display:block; width: 100%; height: 100%;
     font-size:13px; text-align:center; 
     font-family:var(--font-nanum); }
 
 #unbBox li:first-child { border:0; }
 
-.gnbBox dt > a { font-weight:bold; font-family:var(--font-malgun);}
+.gnbBox dt > a { 
+    display:block; width: 100%; height: 100%;
+    font-weight:bold; font-family:var(--font-malgun);}
 
 .gnbBox dd > a { font-family:var(--font-malgun); }
-
 
 /* viewBox===================== */
 #viewBox { 
