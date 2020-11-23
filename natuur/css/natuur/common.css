@@ -80,12 +80,12 @@ html,body { width:100%; height:auto; }
     text-align: center; text-transform: uppercase; 
     font-size: 40px; font-family:var(--font-malgun); }
 
-.event_area li.event_01 dt > a { background-image: url(../../img/event_img_pc_01.jpg);}
-.event_area li.event_02 dt > a { background-image: url(../../img/event_img_pc_02.jpg);}
-.event_area li.event_03 dt > a { background-image: url(../../img/event_img_pc_03.jpg);}
-.event_area li.event_04 dt > a { background-image: url(../../img/event_img_pc_04.jpg);}
-.event_area li.event_05 dt > a { background-image: url(../../img/event_img_pc_05.jpg);}
-.event_area li.event_06 dt > a { background-image: url(../../img/event_img_pc_06.jpg);}    
+.event_area li.event_01 dt > a { background-image: url(../../img/event_Img_pc_01.jpg);}
+.event_area li.event_02 dt > a { background-image: url(../../img/event_Img_pc_02.jpg);}
+.event_area li.event_03 dt > a { background-image: url(../../img/event_Img_pc_03.jpg);}
+.event_area li.event_04 dt > a { background-image: url(../../img/event_Img_pc_04.jpg);}
+.event_area li.event_05 dt > a { background-image: url(../../img/event_Img_pc_05.jpg);}
+.event_area li.event_06 dt > a { background-image: url(../../img/event_Img_pc_06.jpg);}    
 
 .event_area dl { font-style:3rem; }
 
