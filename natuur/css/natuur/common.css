@@ -188,6 +188,11 @@ html,body { width:100%; height:auto; }
 .sns_image > li:nth-child(4) { background-image: url(../../img/instagram_img_04.JPG);}
 .sns_image > li:nth-child(5) {  background-image: url(../../img/instagram_img_05.JPG);}
 
+/* top_move_btn */
+.top_move_btn { 
+    position: fixed; right:20px; bottom:30px;
+    font-size:2rem; color:var(--color-gray); }
+
 /* footBox */
 #footBox { 
     width:100%; height:auto;
