@@ -52,7 +52,7 @@
                 slideN = eventAreaLiLen-3
                 eventAreaUl.css({'marginLeft': slideN * (-100 /3)+ '%'});
             }
-            console.log(slideN)
+            // console.log(slideN)
             setTimeout(function(){
                 permission = true;
             }, timed/5);

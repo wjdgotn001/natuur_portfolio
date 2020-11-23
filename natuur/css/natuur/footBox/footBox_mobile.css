@@ -9,17 +9,17 @@
         margin-bottom:30px; 
         font-size:13px; font-family:var(--font-malgun); }
     .footer_menu > li { width:auto; height:auto; }
-    .footer_menu a { display:block; width: 100%; height: 100%; margin-bottom:8px; }
+    .footer_menu a { display:block; width: 100%; height: 100%; margin-bottom:8px; font-size:11px; }
     .family_site { 
         float: right;
         position: absolute; right:0;
         width:170px; height:25px; }
 
     #footBox span { 
-        position: absolute; font-size:13px; font-family:var(--font-malgun); 
+        position: absolute; font-size:11px; font-family:var(--font-malgun); 
         padding-left:5px; box-sizing: border-box; }
-    #footBox span:nth-of-type(1) { left:0; top:150px; margin-bottom:8.695652vw /*40px*/; }    
-    #footBox span:nth-of-type(2) { left:0; top:190px; text-transform: uppercase; }
+    #footBox span:nth-of-type(1) { left:0; bottom:80px; }    
+    #footBox span:nth-of-type(2) { left:0; bottom:50px; text-transform: uppercase; }
 
 
     .family select { width:115px; height:25px; }

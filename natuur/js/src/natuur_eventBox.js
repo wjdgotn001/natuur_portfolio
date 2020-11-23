@@ -13,7 +13,7 @@
   eventAreaUl.prepend(eventAreaLi_copy);
   //복제한 변수 맨앞에 붙이기, 전체가로값 변경
   var eventAreaLi_after = eventAreaUl.children('li');
-  eventAreaUl.css({'width':eventAreaLi_after.length * 100 + '%', 'position':'relative', 'marginLeft':-100 + '%' });
+  eventAreaUl.css({'width':eventAreaLi_after.length * 100 + '%', 'position':'relative', 'left':-100 + '%' });
   eventAreaLi_after.css({'width':100 / eventAreaLi_after.length + '%'});
   
   //공통변수
@@ -32,7 +32,7 @@
       if(itClass === 'next'){
         if( slideN >= eventAreaLen-1 ){ 
           slideN = -1;
-          eventAreaUl.css({marginLeft:slideN * -100 + '%'});
+          eventAreaUl.css({'marginLeft':slideN * -100 + '%'});
          }
         slideN += 1;     
         
@@ -41,10 +41,10 @@
       }
 
       //animate기능 통합*
-      eventAreaUl.animate({marginLeft:slideN * -100 + '%'},function(){
+      eventAreaUl.animate({'marginLeft':slideN * -100 + '%'},function(){
         if( slideN <= -1){ 
           slideN = eventAreaLen-1;
-          eventAreaUl.css({marginLeft:slideN * -100 + '%'});
+          eventAreaUl.css({'marginLeft':slideN * -100 + '%'});
         } 
         setTimeout(function(){
           permission = true;
