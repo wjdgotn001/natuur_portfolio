@@ -80,12 +80,12 @@ html,body { width:100%; height:auto; }
     text-align: center; text-transform: uppercase; 
     font-size: 40px; font-family:var(--font-malgun); }
 
-.event_area li.event_01 dt > a { background-image: url(../../../img/event_img_pc_01.JPG);}
-.event_area li.event_02 dt > a { background-image: url(../../../img/event_img_pc_02.JPG);}
-.event_area li.event_03 dt > a { background-image: url(../../../img/event_img_pc_03.JPG);}
-.event_area li.event_04 dt > a { background-image: url(../../../img/event_img_pc_04.jpg);}
-.event_area li.event_05 dt > a { background-image: url(../../../img/event_img_pc_05.jpg);}
-.event_area li.event_06 dt > a { background-image: url(../../../img/event_img_pc_06.jpg);}    
+.event_area li.event_01 dt > a { background-image: url(../../img/event_img_pc_01.JPG);}
+.event_area li.event_02 dt > a { background-image: url(../../img/event_img_pc_02.JPG);}
+.event_area li.event_03 dt > a { background-image: url(../../img/event_img_pc_03.JPG);}
+.event_area li.event_04 dt > a { background-image: url(../../img/event_img_pc_04.jpg);}
+.event_area li.event_05 dt > a { background-image: url(../../img/event_img_pc_05.jpg);}
+.event_area li.event_06 dt > a { background-image: url(../../img/event_img_pc_06.jpg);}    
 
 .event_area dl { font-style:3rem; }
 
@@ -138,10 +138,10 @@ html,body { width:100%; height:auto; }
     border-radius:20px; }
 .menu_area dd:nth-of-type(2):hover i { color:var(--color-main); }
 
-.menu_area li:nth-of-type(1) .menu_img { background-image: url(../../../img/icecream.jpg); }
-.menu_area li:nth-of-type(2) .menu_img { background-image: url(../../../img/desert.jpg); }
-.menu_area li:nth-of-type(3) .menu_img { background-image: url(../../../img/beverage.png); }
-.menu_area li:nth-of-type(4) .menu_img { background-image: url(../../../img/icecreamCake.jpg); }
+.menu_area li:nth-of-type(1) .menu_img { background-image: url(../../img/icecream.jpg); }
+.menu_area li:nth-of-type(2) .menu_img { background-image: url(../../img/desert.jpg); }
+.menu_area li:nth-of-type(3) .menu_img { background-image: url(../../img/beverage.png); }
+.menu_area li:nth-of-type(4) .menu_img { background-image: url(../../img/icecreamCake.jpg); }
 
 
 /* searchBox===================== */
@@ -182,13 +182,11 @@ html,body { width:100%; height:auto; }
     background-size: cover;
     background-position: 50% 50%;
 }
-.sns_image > li:nth-child(1) { background-image: url(../../../img/instagram_img_01.JPG);}
-.sns_image > li:nth-child(2) { background-image: url(../../../img/instagram_img_02.JPG);}
-.sns_image > li:nth-child(3) { background-image: url(../../../img/instagram_img_03.JPG);}
-.sns_image > li:nth-child(4) { background-image: url(../../../img/instagram_img_04.JPG);}
-.sns_image > li:nth-child(5) {  background-image: url(../../../img/instagram_img_05.JPG);}
-
-
+.sns_image > li:nth-child(1) { background-image: url(../../img/instagram_img_01.JPG);}
+.sns_image > li:nth-child(2) { background-image: url(../../img/instagram_img_02.JPG);}
+.sns_image > li:nth-child(3) { background-image: url(../../img/instagram_img_03.JPG);}
+.sns_image > li:nth-child(4) { background-image: url(../../img/instagram_img_04.JPG);}
+.sns_image > li:nth-child(5) {  background-image: url(../../img/instagram_img_05.JPG);}
 
 /* footBox */
 #footBox { 
