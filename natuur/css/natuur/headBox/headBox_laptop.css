@@ -13,6 +13,7 @@
     width:300px; height:150px; margin-bottom:70px; 
     transform: translateX(-50%); border-radius:100px;
     background-image: url(../../../img/logo.png); }
+  #headBox a { display:block; width: 100%; height: 100%; }
 
   /*unbBox영역 */
   #unbBox > ul { width:100%; height:auto; }
@@ -40,7 +41,9 @@
   .gnbBox dd { 
     width:100%; height:auto; color:var(--color-black); 
     padding:15px 0; text-indent: 10px; font-size:16px; }
-  #headBox .gnbBox dd > a { padding:0.7rem 0; margin-bottom: 0.3rem; box-sizing: border-box;  height:auto; }
+  #headBox .gnbBox dd > a { 
+    display:block;
+    padding:0.7rem 0; margin-bottom: 0.3rem; box-sizing: border-box;  height:auto; }
   /* gnbBox:hover */
   .gnbBox a:hover, 
   .gnbBox a:focus { color:var(--color-main);}

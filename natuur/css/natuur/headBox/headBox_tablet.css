@@ -68,6 +68,8 @@
  .gnbBox dt i { 
    float: right; line-height:50px; margin-right:100px; font-size:1.5rem; }
 
+ .gnbBox dt > a { display:block; width: 100%; height: 100%; }
+
    /* 
     **form 영역**
     1.form내부에 들어가는 input,label..inline-block요소(사이즈를 가질 수 있지만 옆으로 늘어나는요소)
