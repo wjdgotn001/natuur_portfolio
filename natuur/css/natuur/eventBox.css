@@ -1,3 +1,3 @@
-@import url(../natuur/eventBox/eventBox_mobile.css);
-@import url(../natuur/eventBox/eventBox_tablet.css);
-@import url(../natuur/eventBox/eventBox_laptop.css);
+@import url(./eventBox/eventBox_mobile.css);
+@import url(./eventBox/eventBox_tablet.css);
+@import url(./eventBox/eventBox_laptop.css);
