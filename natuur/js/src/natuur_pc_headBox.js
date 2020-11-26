@@ -2,22 +2,28 @@
 
   var gnbContent = [
     { 'titleNav': {'name':'나뚜루', 'link':'http//naver.com', 'target':'_blank'},
-      'subNav'  : ['나뚜루 소개', '광고 이야기', '나뚜루 뉴스'] },
+      'subNav'  : [{'subT': '나뚜루 소개', 'subLink' : './introduce.html'}, 
+                   {'subT': '광고 이야기', 'subLink' : './introduce.html'} ] },
 
     { 'titleNav': {'name':'플래그십','link':'http//naver.com', 'target':'_blank'},
-      'subNav'  : ['store', 'menu', '매장위치'] },
+      'subNav'  : [{'subT':'store'}, 
+                   {'subT':'menu'}, 
+                   {'subT':'매장위치'}] },
 
     { 'titleNav': {'name':'메뉴','link':'http//naver.com', 'target':'_blank'},
-      'subNav'  : ['신제품/인기제품', '완제품', '전문점 제품'] },
+      'subNav'  : [{'subT':'신제품/인기제품'},
+                   {'subT':'전문점 제품'}] },
 
     { 'titleNav': {'name':'매장','link':'http//naver.com', 'target':'_blank'},
-      'subNav'  : ['매장찾기', '가맹점 모집', '홈배달 서비스', '푸드트럭'] },
+      'subNav'  : [{'subT':'매장찾기'}] },
 
     { 'titleNav': {'name':'이벤트','link':'http//naver.com', 'target':'_blank'},
-      'subNav'  : ['진행중인 이벤트', '지난 이벤트', '당첨자 발표', '그룹 옴니채널'] },
+      'subNav'  : [{'subT':'진행중인 이벤트'},
+                   {'subT':'당첨자 발표'}] },
 
     { 'titleNav': {'name':'sns','link':'http//naver.com', 'target':'_blank'},
-      'subNav'  : ['인스타그램', '페이스북'] }
+      'subNav'  : [{'subT':'인스타그램'},
+                   {'subT':'페이스북'}] }
   ];
 
   var gnbList = '<li><dl><dt><span class="hidden_context"></span></dt><dd></dd></dl></li>';
@@ -26,7 +32,7 @@
   var gnbBoxUl = gnbBox.children('.gnbBox_menu');
   var gnbBoxLen = gnbContent.length;
   var gnbDt, gnbDd, subNavLen, titleN, subN ;
-  var i, j;
+  var i, j, t;
 
   for(i=0 ; i < gnbBoxLen ; i += 1){
     gnbBoxUl.append(gnbList);
@@ -38,7 +44,8 @@
     subNavLen = gnbContent[i].subNav.length;
   for(j=0  ; j < subNavLen ; j +=1){
     subN = gnbContent[i].subNav[j];
-    gnbDd.append('<a href="#">'+subN+'</a>');
+    // subT = gnbContent[i].subNav[j].subT[t];
+    gnbDd.append('<a href="'+subN.subLink+'">'+subN.subT+'</a>');
    }
   } //for end
 

@@ -1,0 +1,45 @@
+/* sub_introduceBox.laptop.css */
+
+@media screen and (min-width:1025px){
+    #introduceBox { 
+        position: relative; width:auto; max-width:960px; height:auto;
+        margin:auto; padding:20px 10px; box-sizing: border-box;   }
+
+    #introduceBox h3 { 
+        font-size:30px; text-align: center; font-family:var(--font-malgun);
+        margin:80px 0 20px; }  
+
+    #introduceBox .title { 
+        font-size: 16px; text-align: center; font-family:var(--font-malgun);
+        margin-bottom:30px; color:var(--color-main); }
+
+    .inner_bg_img { height: 11.7021vw/*110px*/; background-size: 100%; }
+
+
+    .breadcrumb { 
+        position: absolute; top:30px; right:42px; font-size:13px;
+        width:auto; height:auto; }
+
+    .title_list { 
+        width:100%; max-width:587px; height:40px; margin:auto; 
+        margin-bottom: 30px;
+        border:1px solid var(--color-dark_gray); border-radius:20px; }
+
+    .title_list > li { 
+        float: left; 
+        width:50%; height:100%; 
+        text-align: center; line-height:40px;
+        font-size:13px; font-family:var(--font-malgun);}
+
+    .main_bg {  width:53.1914vw; max-width:440; height:60.6382vw; max-height:500; margin:auto; }
+
+    .explanation { 
+        width:65.9574vw; max-width:620px; height:auto; 
+        margin-top:50px;  margin:auto; }
+
+        .explanation dd { margin-bottom: 30px; }
+
+    .explanation > dt > img { width:234px; height:25px; }
+
+
+}

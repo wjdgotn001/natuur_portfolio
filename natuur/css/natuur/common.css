@@ -5,11 +5,8 @@ html,body { width:100%; height:auto; }
 .eventBox_wrap, 
 .menuBox_wrap, 
 .searchBox_wrap, 
-.snsBox_wrap, 
-.footBox_wrap { 
-    width:100%; height:auto; background-color:var(--color-white); 
-    
- }
+.snsBox_wrap
+ { width:100%; height:auto; background-color:var(--color-white);  }
 
 /* headBox===================== */
 #headBox { 

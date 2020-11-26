@@ -18,7 +18,6 @@
   #unbBox > ul { width:100%; height:auto; }
   #unbBox li { float: left; width:70px; height:auto; border-left:1px solid #ddd; }
   
-
   /* gnbBox영역 */
   #gnbBox_wrap { 
     float: right; margin-top:0;

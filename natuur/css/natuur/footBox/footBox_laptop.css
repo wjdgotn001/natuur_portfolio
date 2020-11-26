@@ -1,6 +1,8 @@
 /* laptop 1440px / design 1420px  */
 
 @media screen and (min-width:1025px) {
+  .footBox_wrap { width: 100%; background-color:#ededed;}
+
   #footBox {
     position: relative;
     width:1420px; height:440px; margin:auto; 
@@ -31,4 +33,6 @@
     border:1px solid #333; 
     background-color:var(--color-white); border-radius:2px; }
   .search > a { line-height:35px;  }
+
+
 }
