@@ -1,0 +1,50 @@
+/* 공통 */
+html,body { width:100%; height:auto; }
+#wrap { width: 100%; height:auto; min-height:500px; }
+.headBox_wrap, 
+.eventBox_wrap, 
+.menuBox_wrap, 
+.searchBox_wrap, 
+.snsBox_wrap, 
+.footBox_wrap { 
+    width:100%; height:auto; background-color:var(--color-white); }
+
+/* headBox===================== */
+#headBox { 
+    width:100%; height:auto; 
+    background-color:var(--color-white);}
+
+#headBox > h1 {
+    background-position:50% 50%;
+    background-repeat:no-repeat;
+    background-size:95%; }
+
+#unbBox a { 
+    display:block; width: 100%; height: 100%;
+    font-size:13px; text-align:center; 
+    font-family:var(--font-nanum); }
+
+#unbBox li:first-child { border:0; }
+
+.gnbBox { z-index:1000;}
+
+.gnbBox dt > a { font-weight:bold; font-family:var(--font-malgun);}
+
+.gnbBox dd > a { font-family:var(--font-malgun); }
+
+
+
+
+/* footBox */
+#footBox { 
+    width:100%; height:auto;
+    background-color:#ededed; }
+
+.family_site .family{ float: left;}
+.family_site .search{ float: right; box-sizing: border-box;}
+
+.search { border:1px solid #333; }
+
+.search > a { 
+    display:block; width: 100%; height: 100%; 
+    font-size: 15px; text-align: center;  }

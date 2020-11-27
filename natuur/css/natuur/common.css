@@ -190,7 +190,7 @@ html,body { width:100%; height:auto; }
 /* top_move_btn */
 .top_move_btn { 
     position: fixed; right:20px; bottom:30px;
-    font-size:2rem; color:var(--color-gray); }
+    font-size:2rem; color:var(--color-point); }
 
 /* footBox */
 #footBox { 

@@ -3,11 +3,11 @@
   var gnbContent = [
     { 'titleNav': {'name':'나뚜루', 'link':'http//naver.com', 'target':'_blank'},
       'subNav'  : [{'subT': '나뚜루 소개', 'subLink' : './introduce.html'}, 
-                   {'subT': '광고 이야기', 'subLink' : './introduce.html'} ] },
+                   {'subT': '광고 이야기', 'subLink' : './advertising_story.html'} ] },
 
     { 'titleNav': {'name':'플래그십','link':'http//naver.com', 'target':'_blank'},
       'subNav'  : [{'subT':'store'}, 
-                   {'subT':'menu'}, 
+                   {'subT':'menu', 'subLink':'./menu.html'}, 
                    {'subT':'매장위치'}] },
 
     { 'titleNav': {'name':'메뉴','link':'http//naver.com', 'target':'_blank'},

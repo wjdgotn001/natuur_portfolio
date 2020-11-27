@@ -27,6 +27,7 @@
         width:auto; height:auto; }
 
     .title_list { 
+        overflow: hidden;
         width:100%; max-width:587px; height:40px; margin:auto; 
         margin-bottom: 40px;
         border:1px solid var(--color-dark_gray); border-radius:20px; }

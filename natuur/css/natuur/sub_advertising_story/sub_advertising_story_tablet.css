@@ -1,0 +1,53 @@
+/* sub_advertising_story_tablet.css */
+
+@media screen and (min-width:481px) and (max-width:1024px){
+
+    html,body { width:1024px; height:auto; }
+
+    #wrap { width:1024px; height:auto; min-height:500px; }
+
+    .inner_bg_img { height: 11.7021vw/*110px*/; margin-top:20px; background-size:cover; }
+
+    #adver_story { 
+        position: relative; width:auto; max-width:1024px; height:auto;
+        margin:auto; padding:20px 42px; box-sizing: border-box; }
+
+    #adver_story h3 { 
+        font-size:30px; text-align: center; font-family:var(--font-malgun);
+        margin:80px 0 10px; }   
+
+    #adver_story .title { 
+        font-size: 16px; text-align: center; font-family:var(--font-malgun);
+        margin-bottom:30px; color:var(--color-main); }
+
+    .breadcrumb { 
+        position: absolute; top:30px; right:42px; font-size:13px; margin-bottom:30px;
+        width:auto; height:auto; }
+        
+    .adver_area { width:860px; height:auto; margin:auto; }
+
+    .adver_area > h4 { 
+        font-size:18px; text-align: center; 
+        text-decoration: underline;
+        padding:30px 0; box-sizing: border-box; }
+    
+    .adver_contents { width:100%; height:auto; margin:auto;  }
+    .adver_contents ul { width: 100%; height:100%; }
+
+    .adver_contents ul > li { 
+        float: left; 
+        width:42.5531vw; max-width:400px; height:43.4042vw; max-height:408px;
+        margin-right:60px; margin-bottom:30px; 
+        border:1px solid var(--color-dark_gray); box-sizing: border-box; }
+
+    .adver_contents ul > li:nth-of-type(2n) { margin-right:0; }   
+
+    .adver_contents .play { width: 100%; height:24.5744vw; max-height:231px; }
+    .adver_contents .play > iframe { width:100%; height:100%; border:0; } /*iframe사이즈변경, border값 초기화*/
+    .adver_contents .play_title { width: 100%; height:auto; padding:10px; box-sizing: border-box; }
+    .adver_contents .play_title p { font-size:13px; font-family:var(--font-malgun); margin-bottom:20px;  }
+    .adver_contents span { font-size:13px; font-family:var(--font-malgun); }
+
+    
+    
+} 
