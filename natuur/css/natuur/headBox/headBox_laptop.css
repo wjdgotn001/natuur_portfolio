@@ -23,9 +23,9 @@
 
   /*gnbBox영역 */
   #gnbBox_wrap { 
-    position: absolute; left:200px; bottom:165px; 
-    width:auto; height:60px; border-top:1px solid #333;}
-  .gnbBox { width:auto; height:auto; background-color: var(--color-white); }
+    position: absolute; left:50%; transform: translateX(-50%); bottom:165px; 
+    width:1075px; height:60px; border-top:1px solid #333;}
+  .gnbBox { width:100%; height:auto; background-color: var(--color-white); }
   .gnbBox_menu { float: left; width:auto; min-width:700px; height: 100%; margin-right:50px; }
   .gnbBox_menu > li { float: left; width:140px; height:100%; margin-right:15px; }
   .gnbBox_menu > li:last-child { margin-right:0; }

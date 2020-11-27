@@ -7,7 +7,7 @@
 
     #introduceBox h3 { 
         font-size:30px; text-align: center; font-family:var(--font-malgun);
-        margin:80px 0 20px; }  
+        margin:80px 0 10px; }  
 
     #introduceBox .title { 
         font-size: 16px; text-align: center; font-family:var(--font-malgun);
@@ -22,7 +22,7 @@
 
     .title_list { 
         width:100%; max-width:587px; height:40px; margin:auto; 
-        margin-bottom: 30px;
+        margin-bottom: 30px; box-sizing: border-box;
         border:1px solid var(--color-dark_gray); border-radius:20px; }
 
     .title_list > li { 
@@ -31,15 +31,34 @@
         text-align: center; line-height:40px;
         font-size:13px; font-family:var(--font-malgun);}
 
-    .main_bg {  width:53.1914vw; max-width:440; height:60.6382vw; max-height:500; margin:auto; }
+    /* tab공통 영역 */
+    .tab_menu_01,
+    .tab_menu_02 { 
+        width:100%; height:auto; 
+        margin:auto; margin-top:50px; margin-bottom:50px; }    
 
-    .explanation { 
-        width:65.9574vw; max-width:620px; height:auto; 
-        margin-top:50px;  margin:auto; }
+    .tab_menu_01 > dl, 
+    .tab_menu_02 > dl  { 
+        width: 100%; height:auto; margin:auto; }
 
-        .explanation dd { margin-bottom: 30px; }
+    /* tab_01 */    
+    .main_bg {  width:53.1914vw; max-width:440px; height:60.6382vw; max-height:500px; margin:auto; }
 
-    .explanation > dt > img { width:234px; height:25px; }
+    .tab_menu_01 p { font-size:15px; }
+
+    .story_brand img { width:330px; height:33px; }
+
+    /* tab_02 */  
+    .tab_menu_02 dt {
+        width:100%; height:auto; 
+        text-align: center; text-decoration: underline; 
+        margin-bottom:30px; font-size:15px; }
+
+   .tab_menu_02 dd { 
+       width:50.7446vw; max-width:477px; height:auto; max-height:748px; 
+       margin:auto; }
+
+   .tab_menu_02 img { width: 100%; height: 100%; }
     
     
         
