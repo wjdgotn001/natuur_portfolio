@@ -22,8 +22,8 @@
                    {'subT':'당첨자 발표'}] },
 
     { 'titleNav': {'name':'sns','link':'natuur.html', 'target':'_blank'},
-      'subNav'  : [{'subT':'인스타그램'},
-                   {'subT':'페이스북'}] }
+      'subNav'  : [{'subT':'인스타그램', 'subLink':'https://www.instagram.com/official.natuur/?hl=ko'},
+                   {'subT':'페이스북', 'subLink':'https://www.facebook.com/official.natuur/'}] }
   ];
 
   var gnbList = '<li><dl><dt><span class="hidden_context"></span></dt><dd></dd></dl></li>';

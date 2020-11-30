@@ -70,19 +70,20 @@
 
     .search_info p { 
         font-family:var(--font-malgun); 
-        margin-left:20px; margin-bottom: 20px;
+        text-align: center; margin-bottom: 20px;
         font-size:16px; }
 
-    .input_wrap { width:60vw; max-width:300px; height:30px; margin-left:20px; }
+    .input_wrap { width:65vw; max-width:310px; height:28px; margin:auto; }
     
     .form_group { float: left; }
 
     .form_group > input { 
-        width:225px; height:32px; 
+        width:65vw; max-width:245px; height:30px; 
         border:1px solid var(--color-dark_gray);  }
 
     .search_btn { 
-        float: right; width:60px;
+        float: right; width:50px; height:30px; 
+        box-sizing: border-box;
         border:1px solid var(--color-dark_gray); }
 
     #searchBox form button { 

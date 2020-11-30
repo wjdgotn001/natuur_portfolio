@@ -65,25 +65,25 @@
         color:var(--color-point);
         padding:5px; border-radius:30px; }
 
-    #searchBox form { position: absolute; bottom:60px; width:100%; height:auto; }
+    #searchBox form { position: absolute; bottom:70px; width:100%; height:auto; }
 
     #searchBox fieldset { width:auto; min-width:180px; height: 100%; }
 
     .search_info p { 
-        font-family:var(--font-malgun); 
-        margin-left:20px; margin-bottom: 20px;
-        font-size:23px; }
+        font-family:var(--font-malgun); text-align: center;
+        margin-bottom: 30px;
+        font-size:20px; }
 
-    .input_wrap { width:60vw; max-width:300px; height:30px; margin-left:20px; }
+    .input_wrap { width:60vw; max-width:400px; height:30px; margin:auto; }
     
     .form_group { float: left; }
 
     .form_group > input { 
-        width:225px; height:32px; 
+        width:315px; height:32px; 
         border:1px solid var(--color-dark_gray);  }
 
     .search_btn { 
-        float: right; width:60px;
+        float: right; width:70px;
         border:1px solid var(--color-dark_gray); }
 
     #searchBox form button { 

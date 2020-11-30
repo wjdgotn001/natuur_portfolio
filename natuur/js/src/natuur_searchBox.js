@@ -5,7 +5,7 @@
   var searchArea = $('.search_area');
   var close = $('.close');
   var closeBtn = close.children('button');
-  // searchArea.hide();
+  searchArea.hide();
 
  var storeSearch = searchBox.children('.store_search');
 

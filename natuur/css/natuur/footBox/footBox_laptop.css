@@ -28,7 +28,7 @@
     #footBox span:nth-of-type(2) { top:180px; text-transform: uppercase; }
     
   .family select { width:200px; height:35px; }
-  .search{ 
+  #footBox.search{ 
     width:100px; height:35px;
     border:1px solid #333; 
     background-color:var(--color-white); border-radius:2px; }

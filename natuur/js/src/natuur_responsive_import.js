@@ -40,7 +40,7 @@ if(nowW === deviceType[0]){
     headBox.load( url + 'headBox.html', headImport );
     viewBox.load( url + 'viewBox.html', viewImport );
     eventBox.load( url + 'eventBox.html' , eventImport );
-    menuBox.load( url + 'menuBox.html' , menuBoxImport );
+    menuBox.load( url + 'menuBox.html' );
     // viewBox.load( url + '' );
 }else if(nowW === deviceType[1]){
     headBox.load( url + 'headBox.html', headImport );
