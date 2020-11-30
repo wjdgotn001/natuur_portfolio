@@ -1,7 +1,7 @@
 /* mobile 480px  / design 460px  */
 
 @media screen and (max-width:480px) {
-    #searchBox { height:290px; padding-top:50px; box-sizing: border-box; }
+    #searchBox { position: relative; height:290px; padding-top:50px; box-sizing: border-box; }
     #searchBox > p {  width:250px; height:auto; margin:auto; margin-bottom:50px; font-size:17px;  }
 
     .store_search { 
@@ -9,7 +9,91 @@
         margin:auto; border-radius:40px; 
         margin-top:8.695652vw /*40px*/;
         background-color:var(--color-white); }
-    .store_search a { padding:0 6.521739vw /*0 30px*/; box-sizing: border-box;
+
+    .store_search a { 
+        padding:0 6.521739vw /*0 30px*/; box-sizing: border-box;
         line-height:65px; } 
+
     .store_search span { font-size:17px; }
+
+    /* 모달창 */
+    .search_area { 
+        position: absolute; bottom:10px; left:50%; z-index: 1000;
+        transform: translate(-50%);
+        width:76.0869vw; max-width:350px; height:400px;
+        border:2px solid var(--color-point);
+        border-bottom-left-radius:20px; border-bottom-right-radius:20px; 
+        background-color: var(--color-white); }
+
+    .search_area  > .search { 
+        width: 100%; height:300px; 
+        background-color: var(--color-white); 
+        border-bottom:1px solid var(--color-dark_gray); }
+
+    .search_area h3 { 
+        font-size:20px; text-align: center; 
+        font-family:var(--font-malgun); padding:30px 0 5px; box-sizing: border-box;}
+
+    .search > p:nth-of-type(1) { 
+        font-size:12px; text-align: center; 
+        margin-bottom:2.1739vw /*10px*/;
+        color:var(--color-main); }
+
+    .close { position: absolute; top:5px; right:10px;}
+
+    .close i { font-size:1.5rem; }
+
+    .store_img { 
+        position: absolute; left:20px;
+        width:43.4782vw; max-width:200px; height:140px; 
+        background-image: url(../../../img/natuur_img.JPG);
+        background-position: 50% 50%;
+        background-repeat:no-repeat;
+        background-size: contain; }
+
+    .search > span:nth-of-type(1) { 
+        position: absolute; right:20px; top:210px; font-size:12px; }
+
+    .search > span:nth-of-type(2) { 
+        position: absolute; right:20px; top:230px; font-size:12px; }
+
+    .store_info { 
+        position: absolute; right:30px; top:260px; font-size:12px; }
+
+    .store_info > a { 
+        display:block; width: 100%; height: 100%;
+        text-align: center; border:1px solid var(--color-main); 
+        color:var(--color-point);
+        padding:5px; border-radius:20px; }
+
+    #searchBox form { position: absolute; bottom:30px; width:100%; height:auto; }
+
+    #searchBox fieldset { width:auto; min-width:180px; height: 100%; }
+
+    .search_info p { 
+        font-family:var(--font-malgun); 
+        margin-left:20px; margin-bottom: 10px;
+        font-size:13px; }
+
+    .input_wrap { width:60vw; max-width: 230px; height:28px; margin-left:20px; }
+    
+    .form_group { float: left; }
+
+    .form_group > input { 
+        width:41vw; max-width:175px; height:28px; 
+        border:1px solid var(--color-dark_gray);  }
+
+    .search_btn { 
+        float: right; width:45px;
+        border:1px solid var(--color-dark_gray); }
+
+    #searchBox form button { 
+        display:block; width: 100%; height: 100%; 
+        padding:4px; box-sizing: border-box; }
+
+    
+
+
+
+
 }

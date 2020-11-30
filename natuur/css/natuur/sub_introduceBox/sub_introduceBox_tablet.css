@@ -13,7 +13,7 @@
         font-size: 16px; text-align: center; font-family:var(--font-malgun);
         margin-bottom:30px; color:var(--color-main); }
 
-    .inner_bg_img { height: 11.7021vw/*110px*/; background-size: 100%; }
+    .inner_bg_img { height: 88px; background-image: url(../../../img/bg_brand_pc_img.jpg); }
 
 
     .breadcrumb { 

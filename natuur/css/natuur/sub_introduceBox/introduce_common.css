@@ -5,8 +5,7 @@ html,body { width:100%; height:auto; }
 .eventBox_wrap, 
 .menuBox_wrap, 
 .searchBox_wrap, 
-.snsBox_wrap, 
-.footBox_wrap { 
+.snsBox_wrap { 
     width:100%; height:auto; background-color:var(--color-white); }
 
 /* headBox===================== */
@@ -15,9 +14,9 @@ html,body { width:100%; height:auto; }
     background-color:var(--color-white);}
 
 #headBox > h1 {
-    background-position:50% 50%;
     background-repeat:no-repeat;
-    background-size:95%; }
+    background-position: 50% 50%;
+    background-size:contain; }
 
 #unbBox a { 
     display:block; width: 100%; height: 100%;
@@ -35,10 +34,9 @@ html,body { width:100%; height:auto; }
 
 /*introduceBox*/
 .inner_bg_img {
-    width:100%; height:62px; 
+    width:100%; 
     background-repeat: no-repeat;
-    background-size: contain;
-    background-image: url(../../../img/bg_brand_img.jpg); }
+    background-size: contain; }
 
 .breadcrumb > li { float: left; margin-right:10px;}
 .breadcrumb > li:nth-child(2) { margin-right:0px;}
@@ -48,7 +46,7 @@ html,body { width:100%; height:auto; }
 
 .main_bg { 
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-image: url(../../../img/Introduce_main_img.jpg);}
 
 .title_list > li.action { background-color: var(--color-point); color:#fff; }   

@@ -2,13 +2,11 @@
 
 @media screen and (min-width:1025px){
     html,body { width:auto; min-width:1420px; }
-    #wrap {width:auto; min-width:1420px;}
-    .headBox_wrap, 
-    .footBox_wrap { width:auto; min-width:1420px; background-color:var(--color-white); }
+    #wrap {width:auto; min-width:1420px; margin:auto; }
 
     #introduceBox { 
         position: relative; margin:auto;
-        width:auto; min-width:1420px; height:auto;
+        width:auto; max-width:1420px; height:auto;
         padding:0 10px 100px; box-sizing: border-box; }
 
     #introduceBox h3 { 
@@ -19,7 +17,7 @@
         font-size: 16px; text-align: center; font-family:var(--font-malgun);
         margin-bottom:50px; color:var(--color-main); }
 
-    .inner_bg_img { height: 11.7021vw/*110px*/; background-size: 100%; }
+    .inner_bg_img { height: 123px; background: url(../../../img/bg_brand_pc_img.jpg) no-repeat center top; }
 
 
     .breadcrumb { 
@@ -66,6 +64,29 @@
        margin:auto; }
 
    .tab_menu_02 img { width: 100%; height: 100%; }
+
+
+   /* animation */
+   @keyframes fadeIn{
+       0% {opacity:0;}
+       100% {opacity:1;}
+   }
+   .animate{
+       animation:fadeIn 2s forwards ease-in;
+       transition:3s linear;
+   }
+   .story_brand.animate { 
+    transform: translate(0);
+   }
+   .story_brand p.animate { 
+    transform: translate(0);
+   }
+   .capitalize.animate {
+    transform: translate(0);
+   }
+   .main_bg.animate {
+    transform: translate(0);
+   }
 
 
 }

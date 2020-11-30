@@ -2,6 +2,7 @@
 
 @media screen and (min-width:1025px) {
     #searchBox {
+        position: relative;
          background-attachment: fixed;
          width:1420px; height:400px; margin:auto; padding-top:100px; box-sizing: border-box; }
     #searchBox > p { font-size:30px; }
@@ -12,6 +13,83 @@
         border-radius:50px; background-color:var(--color-white); }
     .store_search > a { line-height:110px; }
     .store_search span { font-size:30px; }
+
+     /* 모달창 */
+     .search_area { 
+        position: absolute; bottom:10px; left:50%; z-index: 1000;
+        transform: translate(-50%);
+        width:52.8169vw; max-width:750px; height:700px; 
+        border:3px solid var(--color-point);
+        border-bottom-left-radius:30px; border-bottom-right-radius:30px; 
+        background-color: var(--color-white); }
+
+    .search_area  > .search { 
+        width: 100%; height:500px; 
+        background-color: var(--color-white); 
+        border-bottom:1px solid var(--color-dark_gray); }
+
+    .search_area h3 { 
+        font-size:40px; text-align: center; 
+        font-family:var(--font-malgun); padding:60px 0 20px; box-sizing: border-box;}
+
+    .search > p:nth-of-type(1) { 
+        font-size:18px; text-align: center; 
+        margin-bottom:50px;
+        color:var(--color-main); }
+
+    .close { position: absolute; top:5px; right:10px;}
+
+    .close i { font-size:2rem; }
+
+    .store_img { 
+        position: absolute; left:30px;
+        width:27vw; max-width:340px; height:240px; 
+        background-image: url(../../../img/natuur_img.JPG);
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position: 50% 50%;
+    }
+
+    .search > span:nth-of-type(1) { 
+        position: absolute; right:30px; top:320px; font-size:18px; }
+
+    .search > span:nth-of-type(2) { 
+        position: absolute; right:30px; top:350px; font-size:18px; }
+
+    .store_info { 
+        position: absolute; right:35px; top:400px; font-size:18px; }
+
+    .store_info > a { 
+        display:block; width: 100%; height: 100%;
+        text-align: center; border:1px solid var(--color-main); 
+        color:var(--color-point);
+        padding:5px; border-radius:30px; }
+
+    #searchBox form { position: absolute; bottom:60px; width:100%; height:auto; }
+
+    #searchBox fieldset { width:auto; min-width:180px; height: 100%; }
+
+    .search_info p { 
+        font-family:var(--font-malgun); 
+        margin-left:20px; margin-bottom: 20px;
+        font-size:23px; }
+
+    .input_wrap { width:60vw; max-width:300px; height:30px; margin-left:20px; }
+    
+    .form_group { float: left; }
+
+    .form_group > input { 
+        width:225px; height:32px; 
+        border:1px solid var(--color-dark_gray);  }
+
+    .search_btn { 
+        float: right; width:60px;
+        border:1px solid var(--color-dark_gray); }
+
+    #searchBox form button { 
+        display:block; width: 100%; height: 100%; 
+        padding:6px; box-sizing: border-box; }
+
 
 
 }

@@ -12,6 +12,8 @@
 
     #introduceBox .title { font-size:13px; margin-top:8px; text-align: center; color:var(--color-main); }
 
+    .inner_bg_img { height:81px; background-image: url(../../../img/bg_brand_mobile_img.jpg); }
+
     .breadcrumb {
         position: absolute; top:10px; right:10px; margin-bottom:30px;
         width:150px; height:auto; 

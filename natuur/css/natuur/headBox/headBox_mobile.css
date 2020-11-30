@@ -74,17 +74,17 @@
     1.form내부에 들어가는 input,label..inline-block요소(사이즈를 가질 수 있지만 옆으로 늘어나는요소)
     2.form내부에 p,hn,dl,ol,ul...모두 들어갈 수 있다.
     */
-   form { width:100%; height:auto; min-height:40px; }
+   .gnbBox form { width:100%; height:auto; min-height:40px; }
 
-   fieldset { 
+   .gnbBox fieldset { 
      height:auto; line-height:40px; 
      padding:2.173913vw; box-sizing: border-box;
      text-align: center;
       }
 
-   fieldset > input { width:80%; max-width:180px; height:30px; border-radius:5px; }
+    .gnbBox fieldset > input { width:80%; max-width:180px; height:30px; border-radius:5px; }
 
-   fieldset button { 
+    .gnbBox fieldset button { 
      width:11.956521vw; max-width:55px; height:30px; 
      border-radius:5px; border:1px solid var(--color-white);
      color:var(--color-white); font-family:var(--font-nanum);
