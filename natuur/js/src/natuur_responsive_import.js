@@ -36,6 +36,7 @@ var menuBoxImport = function(){
     menuBox.append('<script src="../js/src/natuur_menuBox.js"></script>');
 };
 // ========================================
+
 if(nowW === deviceType[0]){
     headBox.load( url + 'headBox.html', headImport );
     viewBox.load( url + 'viewBox.html', viewImport );
@@ -55,5 +56,25 @@ else{
     menuBox.load( url + 'menuBox.html' , menuBoxImport );
 }
 
+
+// switch(nowW){
+//     case  deviceType[0]:
+//         headBox.load( url + 'headBox.html', headImport );
+//         viewBox.load( url + 'viewBox.html', viewImport );
+//         eventBox.load( url + 'eventBox.html' , eventImport );
+//         menuBox.load( url + 'menuBox.html' );
+//     break;
+//     case  deviceType[1]:
+//         headBox.load( url + 'headBox.html', headImport );
+//         viewBox.load( url + 'viewBox.html', viewImport );
+//         eventBox.load( url + 'eventBox.html' , eventImport );
+//         menuBox.load( url + 'menuBox.html' );
+//     break;
+//     default:
+//         headBox.load( pcUrl + 'pc.headBox.html', headPcImport );
+//         viewBox.load( url + 'viewBox.html', viewImport );
+//         eventBox.load( url + 'eventBox.html' , eventPcImport );
+//         menuBox.load( url + 'menuBox.html' , menuBoxImport );
+// }
 
 })(jQuery);
