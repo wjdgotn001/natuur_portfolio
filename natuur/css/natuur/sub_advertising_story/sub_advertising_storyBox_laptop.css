@@ -1,64 +1,64 @@
 /* sub_advertising_story_labtop.css */
 
-@media screen and (min-width:1025px) { 
-   html,body { width:auto; min-width:1420px; }
-   #wrap {width:auto; min-width:1420px; margin:auto; }
+@media screen and (min-width:64.0625rem) { 
+   html,body { width:auto; min-width:88.75rem; }
+   #wrap {width:auto; min-width:88.75rem; margin:auto; }
 
   #adver_story { 
-      position: relative; width:auto; max-width:1420px; height:auto;
-      margin:auto; padding:0 10px 100px; box-sizing: border-box; }
+      position: relative; width:auto; max-width:88.75rem; height:auto;
+      margin:auto; padding:0 0.625rem 6.25rem; box-sizing: border-box; }
 
   #adver_story h3 { 
-      font-size:40px; text-align: center; font-family:var(--font-malgun);
-      margin:80px 0 10px; }   
+      font-size:2.5rem; text-align: center; font-family:var(--font-malgun);
+      margin:5rem 0 0.625rem; }   
 
   #adver_story .title { 
-      font-size: 16px; text-align: center; font-family:var(--font-malgun);
-      margin-bottom:30px; color:var(--color-main); }
+      font-size: 1rem; text-align: center; font-family:var(--font-malgun);
+      margin-bottom:1.875rem; color:var(--color-main); }
 
-  .inner_bg_img { height:123px; background: url(../../../img/bg_brand_pc_img.jpg) no-repeat center top; }
+  .inner_bg_img { height:7.6875rem; background: url(../../../img/bg_brand_pc_img.jpg) no-repeat center top; }
 
   .breadcrumb { 
-      position: absolute; top:30px; right:60px; font-size:16px; margin-bottom:30px;
+      position: absolute; top:1.875rem; right:3.75rem; font-size:1rem; margin-bottom:1.875rem;
       width:auto; height:auto; }
       
-  .adver_area { width:100%; max-width:1320px; height:auto; margin:auto; }
+  .adver_area { width:100%; max-width:82.5rem; height:auto; margin:auto; }
 
   .adver_area > h4 { 
-      font-size:25px; text-align: center; 
+      font-size:1.5625rem; text-align: center; 
       text-decoration: underline;
-      padding:30px 0; box-sizing: border-box; }
+      padding:1.875rem 0; box-sizing: border-box; }
   
-  .adver_contents { width:100%; max-width:1320px; height:auto;  }
+  .adver_contents { width:100%; max-width:82.5rem; height:auto;  }
   .adver_contents ul { width: 100%; height:100%;  }
 
   .adver_contents ul > li { 
       float: left; 
-      width:30%; max-width:400px; height:auto; 
-      margin-bottom:2.1126vw /*30px*/; margin-right:5%;
-      border:1px solid var(--color-dark_gray); box-sizing: border-box; }
+      width:30%; max-width:25rem; height:auto; 
+      margin-bottom:2.1126vw /*1.875rem*/; margin-right:5%;
+      border:0.0625rem solid var(--color-dark_gray); box-sizing: border-box; }
 
   .adver_contents ul > li:nth-of-type(3n) { margin-right:0; }   
 
   /* 영상 */
-  .adver_contents .play { width: 100%; height:32.3404vw; max-height:304px; overflow: hidden; }
+  .adver_contents .play { width: 100%; height:32.3404vw; max-height:19rem; overflow: hidden; }
   .adver_contents .play > iframe { width:100%; height:100%; border:0; } /*iframe사이즈변경, border값 초기화*/
 
-  .adver_contents .play_title { width: 100%; height:auto; padding:10px; box-sizing: border-box; }
+  .adver_contents .play_title { width: 100%; height:auto; padding:0.625rem; box-sizing: border-box; }
 
-  .adver_contents .play_title p { font-size:18px; font-family:var(--font-malgun); margin-bottom:10px;  }
+  .adver_contents .play_title p { font-size:1.125rem; font-family:var(--font-malgun); margin-bottom:0.625rem;  }
 
-  .adver_contents span { font-size:20px; font-family:var(--font-malgun); }
+  .adver_contents span { font-size:1.25rem; font-family:var(--font-malgun); }
 
-  .play_title p { width: 100%; height:50px; }
+  .play_title p { width: 100%; height:3.125rem; }
 
   .more_btn { 
-    width:220px; height:50px; 
-    margin:auto; margin-top:40px; 
-    border:1px solid var(--color-main); }
+    width:13.75rem; height:3.125rem; 
+    margin:auto; margin-top:2.5rem; 
+    border:0.0625rem solid var(--color-main); }
   .more_btn > button { 
     display:block; width: 100%; height: 100%;
-    font-size:18px; font-family:var(--font-malgun); }
+    font-size:1.125rem; font-family:var(--font-malgun); }
 
   .more_btn > button:hover { background-color:var(--color-main); color:#fff; }
 

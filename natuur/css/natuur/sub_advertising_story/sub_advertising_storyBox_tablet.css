@@ -1,58 +1,58 @@
 /* sub_advertising_story_tablet.css */
 
-@media screen and (min-width:481px) and (max-width:1024px){
+@media screen and (min-width:30.0625rem) and (max-width:64rem){
 
     #adver_story { 
-        position: relative; width:auto; max-width:1024px; height:auto;
-        margin:auto; padding:20px 42px 100px; box-sizing: border-box; }
+        position: relative; width:auto; max-width:64rem; height:auto;
+        margin:auto; padding:1.25rem 2.625rem 6.25rem; box-sizing: border-box; }
 
     #adver_story h3 { 
-        font-size:30px; text-align: center; font-family:var(--font-malgun);
-        margin:80px 0 10px; }   
+        font-size:1.875rem; text-align: center; font-family:var(--font-malgun);
+        margin:5rem 0 0.625rem; }   
 
     #adver_story .title { 
-        font-size: 16px; text-align: center; font-family:var(--font-malgun);
-        margin-bottom:30px; color:var(--color-main); }
+        font-size: 1rem; text-align: center; font-family:var(--font-malgun);
+        margin-bottom:1.875rem; color:var(--color-main); }
 
-    .inner_bg_img { height:88px; background-image: url(../../../img/bg_brand_pc_img.jpg);  }
+    .inner_bg_img { height:5.5rem; background-image: url(../../../img/bg_brand_pc_img.jpg);  }
 
     .breadcrumb { 
-        position: absolute; top:30px; right:42px; font-size:13px; margin-bottom:30px;
+        position: absolute; top:1.875rem; right:2.625rem; font-size:0.8125rem; margin-bottom:1.875rem;
         width:auto; height:auto; }
         
-    .adver_area { width:100%; max-width:860px; height:auto; margin:auto; }
+    .adver_area { width:100%; max-width:53.75rem; height:auto; margin:auto; }
 
     .adver_area > h4 { 
-        font-size:18px; text-align: center; 
+        font-size:1.125rem; text-align: center; 
         text-decoration: underline;
-        padding:30px 0; box-sizing: border-box; }
+        padding:1.875rem 0; box-sizing: border-box; }
     
     .adver_contents { width:100%; height:auto; }
     .adver_contents ul { width: 100%; height:100%;  }
 
     .adver_contents ul > li { 
         float: left; 
-        width:48%; max-width:412px; height:auto; 
-        margin-bottom:30px; margin-right:4% /*60px*/;
-        border:1px solid var(--color-dark_gray); box-sizing: border-box; }
+        width:48%; max-width:25.75rem; height:auto; 
+        margin-bottom:1.875rem; margin-right:4% /*3.75rem*/;
+        border:0.0625rem solid var(--color-dark_gray); box-sizing: border-box; }
 
     .adver_contents ul > li:nth-of-type(2n) { margin-right:0; }   
 
-    .adver_contents .play { width: 100%; height:32.3404vw; max-height:304px; }
+    .adver_contents .play { width: 100%; height:32.3404vw; max-height:19rem; }
     .adver_contents .play > iframe { width:100%; height:100%; border:0; } /*iframe사이즈변경, border값 초기화*/
-    .adver_contents .play_title { width: 100%; height:auto; padding:10px; box-sizing: border-box; }
-    .adver_contents .play_title p { font-size:13px; font-family:var(--font-malgun); margin-bottom:10px;  }
-    .adver_contents span { font-size:13px; font-family:var(--font-malgun); }
+    .adver_contents .play_title { width: 100%; height:auto; padding:0.625rem; box-sizing: border-box; }
+    .adver_contents .play_title p { font-size:0.8125rem; font-family:var(--font-malgun); margin-bottom:0.625rem;  }
+    .adver_contents span { font-size:0.8125rem; font-family:var(--font-malgun); }
 
-    .play_title p { width: 100%; height:50px; }
+    .play_title p { width: 100%; height:3.125rem; }
 
     .more_btn { 
-        width:150px; height:40px; 
-        margin:auto; margin-top:40px; 
-        border:1px solid var(--color-main); }
+        width:9.375rem; height:2.5rem; 
+        margin:auto; margin-top:2.5rem; 
+        border:0.0625rem solid var(--color-main); }
     .more_btn > button { 
         display:block; width: 100%; height: 100%;
-        font-size:13px; font-family:var(--font-malgun); }
+        font-size:0.8125rem; font-family:var(--font-malgun); }
 
     .more_btn > button:hover { background-color:var(--color-main); color:#fff; }
 

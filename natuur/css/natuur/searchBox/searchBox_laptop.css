@@ -1,49 +1,49 @@
-/* laptop 1440px / design 1420px  */
+/* laptop 90rem / design 88.75rem  */
 
-@media screen and (min-width:1025px) {
+@media screen and (min-width:64.0625rem) {
     #searchBox {
         position: relative;
          background-attachment: fixed;
-         width:1420px; height:400px; margin:auto; padding-top:100px; box-sizing: border-box; }
-    #searchBox > p { font-size:30px; }
+         width:88.75rem; height:25rem; margin:auto; padding-top:6.25rem; box-sizing: border-box; }
+    #searchBox > p { font-size:1.875rem; }
 
     .store_search { 
-        width:28.169014vw; max-width:400px; height:110px; 
-        margin:auto; margin-top:70px;
-        border-radius:50px; background-color:var(--color-white); }
-    .store_search > a { line-height:110px; }
-    .store_search span { font-size:30px; }
+        width:28.169014vw; max-width:25rem; height:6.875rem; 
+        margin:auto; margin-top:4.375rem;
+        border-radius:3.125rem; background-color:var(--color-white); }
+    .store_search > a { line-height:6.875rem; }
+    .store_search span { font-size:1.875rem; }
 
      /* 모달창 */
      .search_area { 
-        position: absolute; bottom:10px; left:50%; z-index: 1000;
+        position: absolute; bottom:0.625rem; left:50%; z-index: 1000;
         transform: translate(-50%);
-        width:52.8169vw; max-width:750px; height:700px; 
-        border:3px solid var(--color-point);
-        border-bottom-left-radius:30px; border-bottom-right-radius:30px; 
+        width:52.8169vw; max-width:46.875rem; height:43.75rem; 
+        border:0.1875rem solid var(--color-point);
+        border-bottom-left-radius:1.875rem; border-bottom-right-radius:1.875rem; 
         background-color: var(--color-white); }
 
     .search_area  > .search { 
-        width: 100%; height:500px; 
+        width: 100%; height:31.25rem; 
         background-color: var(--color-white); 
-        border-bottom:1px solid var(--color-dark_gray); }
+        border-bottom:0.0625rem solid var(--color-dark_gray); }
 
     .search_area h3 { 
-        font-size:40px; text-align: center; 
-        font-family:var(--font-malgun); padding:60px 0 20px; box-sizing: border-box;}
+        font-size:2.5rem; text-align: center; 
+        font-family:var(--font-malgun); padding:3.75rem 0 1.25rem; box-sizing: border-box;}
 
     .search > p:nth-of-type(1) { 
-        font-size:18px; text-align: center; 
-        margin-bottom:50px;
+        font-size:1.125rem; text-align: center; 
+        margin-bottom:3.125rem;
         color:var(--color-main); }
 
-    .close { position: absolute; top:5px; right:10px;}
+    .close { position: absolute; top:0.3125rem; right:0.625rem;}
 
     .close i { font-size:2rem; }
 
     .store_img { 
-        position: absolute; left:30px;
-        width:27vw; max-width:340px; height:240px; 
+        position: absolute; left:1.875rem;
+        width:27vw; max-width:21.25rem; height:15rem; 
         background-image: url(../../../img/natuur_img.JPG);
         background-repeat:no-repeat;
         background-size:cover;
@@ -51,44 +51,44 @@
     }
 
     .search > span:nth-of-type(1) { 
-        position: absolute; right:30px; top:320px; font-size:18px; }
+        position: absolute; right:1.875rem; top:20rem; font-size:1.125rem; }
 
     .search > span:nth-of-type(2) { 
-        position: absolute; right:30px; top:350px; font-size:18px; }
+        position: absolute; right:1.875rem; top:21.875rem; font-size:1.125rem; }
 
     .store_info { 
-        position: absolute; right:35px; top:400px; font-size:18px; }
+        position: absolute; right:2.1875rem; top:25rem; font-size:1.125rem; }
 
     .store_info > a { 
         display:block; width: 100%; height: 100%;
-        text-align: center; border:1px solid var(--color-main); 
+        text-align: center; border:0.0625rem solid var(--color-main); 
         color:var(--color-point);
-        padding:5px; border-radius:30px; }
+        padding:0.3125rem; border-radius:1.875rem; }
 
-    #searchBox form { position: absolute; bottom:70px; width:100%; height:auto; }
+    #searchBox form { position: absolute; bottom:4.375rem; width:100%; height:auto; }
 
-    #searchBox fieldset { width:auto; min-width:180px; height: 100%; }
+    #searchBox fieldset { width:auto; min-width:11.25rem; height: 100%; }
 
     .search_info p { 
         font-family:var(--font-malgun); text-align: center;
-        margin-bottom: 30px;
-        font-size:20px; }
+        margin-bottom: 1.875rem;
+        font-size:1.25rem; }
 
-    .input_wrap { width:60vw; max-width:400px; height:30px; margin:auto; }
+    .input_wrap { width:60vw; max-width:25rem; height:1.875rem; margin:auto; }
     
     .form_group { float: left; }
 
     .form_group > input { 
-        width:315px; height:32px; 
-        border:1px solid var(--color-dark_gray);  }
+        width:19.6875rem; height:2rem; 
+        border:0.0625rem solid var(--color-dark_gray);  }
 
     .search_btn { 
-        float: right; width:70px;
-        border:1px solid var(--color-dark_gray); }
+        float: right; width:4.375rem;
+        border:0.0625rem solid var(--color-dark_gray); }
 
     #searchBox form button { 
         display:block; width: 100%; height: 100%; 
-        padding:6px; box-sizing: border-box; }
+        padding:0.375rem; box-sizing: border-box; }
 
 
 

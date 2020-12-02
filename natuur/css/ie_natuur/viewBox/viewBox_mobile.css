@@ -1,0 +1,13 @@
+/* mobile 480px  / design 460px  */
+
+@media screen and (max-width:480px) { 
+#viewBox { 
+  position: relative; height:500px; }
+/* indicator */
+.view_indicator { 
+  position: absolute; left:50%; bottom:19px; transform: translateX(-50%); 
+  width:120px; height:21px; 
+  padding:5px 12px; box-sizing: border-box; }
+.view_indicator li { float: left; width:11px; height:11px; margin-right:10px; }
+
+}

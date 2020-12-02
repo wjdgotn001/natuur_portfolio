@@ -1,13 +1,13 @@
-/* mobile 480px  / design 460px  */
+/* mobile 30rem  / design 28.75rem  */
 
-@media screen and (max-width:480px) { 
+@media screen and (max-width:30rem) { 
 #viewBox { 
-  position: relative; height:500px; }
+  position: relative; height:31.25rem; }
 /* indicator */
 .view_indicator { 
-  position: absolute; left:50%; bottom:19px; transform: translateX(-50%); 
-  width:120px; height:21px; 
-  padding:5px 12px; box-sizing: border-box; }
-.view_indicator li { float: left; width:11px; height:11px; margin-right:10px; }
+  position: absolute; left:50%; bottom:1.1875rem; transform: translateX(-50%); 
+  width:7.5rem; height:1.3125rem; 
+  padding:0.3125rem 0.75rem; box-sizing: border-box; }
+.view_indicator li { float: left; width:0.6875rem; height:0.6875rem; margin-right:0.625rem; }
 
 }

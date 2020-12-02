@@ -1,0 +1,84 @@
+/* 공통 */
+html,body { width:100%; height:auto; }
+#wrap { width: 100%; height:auto; min-height:500px; }
+.headBox_wrap, 
+.eventBox_wrap, 
+.menuBox_wrap, 
+.searchBox_wrap, 
+.snsBox_wrap { 
+    width:100%; height:auto; background-color:var(--color-white); }
+
+/* headBox===================== */
+#headBox { 
+    width:100%; height:auto; 
+    background-color:var(--color-white);}
+
+#headBox > h1 {
+    background-repeat:no-repeat;
+    background-position: 50% 50%;
+    background-size:contain; }
+
+#unbBox a { 
+    display:block; width: 100%; height: 100%;
+    font-size:13px; text-align:center; 
+    font-family:var(--font-nanum); }
+
+#unbBox li:first-child { border:0; }
+
+.gnbBox { z-index:1000;}
+
+.gnbBox dt > a { font-weight:bold; font-family:var(--font-malgun);}
+
+.gnbBox dd > a { font-family:var(--font-malgun); }
+
+
+/*introduceBox*/
+.inner_bg_img {
+    width:100%; 
+    background-repeat: no-repeat;
+    background-size: contain; }
+
+.breadcrumb > li { float: left; margin-right:10px;}
+.breadcrumb > li:nth-child(2) { margin-right:0px;}
+.breadcrumb > li:nth-child(2):before { content:">"; width:10px; height:100%; margin-right:10px; }
+
+.title_list > li > a { display:block; width: 100%; height: 100%; }
+
+.main_bg { 
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../../../img/Introduce_main_img.jpg);}
+
+.title_list > li.action { background-color: var(--color-point); color:#fff; }   
+
+    
+.tab_menu_01 { display:block; }
+.tab_menu_02 { display:none; }
+
+.tab_contents { position: relative; width: 100%; height:auto; }
+
+.story_brand { width: 100%; height:35px; margin:40px 0; text-align:center; } 
+
+.tab_menu_01 > dl { width: 100%; height:auto; margin:auto; }
+.tab_menu_01 > dl > dd { width: 100%; height:auto; margin:auto; }
+
+.tab_menu_01 p { font-size:12px; font-family:var(--font-malgun); text-align: center;}
+
+.capitalize { text-transform: capitalize; color:var(--color-main);} /*단어 첫글자만 대문자*/
+
+/* footBox */
+#footBox { 
+    width:100%; height:auto;
+    background-color:#ededed; }
+
+.family_site .family{ float: left;}
+.family_site .search{ float: right; box-sizing: border-box;}
+
+.search { border:1px solid #333; }
+
+.search > a { 
+    display:block; width: 100%; height: 100%; 
+    font-size: 15px; text-align: center;  }
+
+
+

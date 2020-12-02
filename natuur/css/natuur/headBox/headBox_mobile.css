@@ -1,27 +1,27 @@
-/* mobile 480px  / design 460px  */
+/* mobile 30rem  / design 28.75rem  */
 
-@media screen and (max-width:480px) { 
+@media screen and (max-width:30rem) { 
   #headBox { 
     position: relative;
-    height:140px; padding:16px 10px 34px; box-sizing: border-box;  }
+    height:8.75rem; padding:1rem 0.625rem 2.125rem; box-sizing: border-box;  }
   #unbBox { 
-    position: absolute; top:16px; left:10px;
-    margin-bottom:30px;
+    position: absolute; top:1rem; left:0.625rem;
+    margin-bottom:1.875rem;
     width:auto; height:auto; }
   #headBox > h1 { 
-    float: left; margin-top:35px;
-    width:126px; height:68px; 
+    float: left; margin-top:2.1875rem;
+    width:7.875rem; height:4.25rem; 
     background-image:url(../../../img/mobile_logo.png); 
   }
 
   /* #unbBox영역 */
   #unbBox > ul { width:100%; height:auto; }
-  #unbBox li { float: left; width:70px; height:auto; border-left:1px solid #ddd; }
+  #unbBox li { float: left; width:4.375rem; height:auto; border-left:0.0625rem solid #ddd; }
   
   /* gnbBox영역 */
   #gnbBox_wrap { 
     float: right; margin-top:0;
-    width:50px; height:50px; }
+    width:3.125rem; height:3.125rem; }
   #gnbBox_wrap > .gnb_open_btn { 
     width: 100%; height: 100%; 
     font-size:2rem; color:#333; }
@@ -37,36 +37,36 @@
    .gnbBox .gnbBox_menu { width: 100%; height:auto; }
    .gnbBox.action { right:0;}
    .gnb_close_btn { 
-     position: absolute; top:0; left:-50px; z-index:900;
-     width:50px; height:50px; }
+     position: absolute; top:0; left:-3.125rem; z-index:900;
+     width:3.125rem; height:3.125rem; }
    .gnb_close_btn > button { display:block; width: 100%; height: 100%; }
-   .gnb_close_btn i { text-align:center; font-size:32px; color:#333; }
+   .gnb_close_btn i { text-align:center; font-size:2rem; color:#333; }
    .gnbBox li { 
      float: left; width: 100%; height:auto; }
    .gnbBox dl { 
      width: 100%; height:auto; background-color: #fff; }
    .gnbBox dt { 
-     width: 100%; height:50px; 
-     border-top:1px solid var(--color-gray);
-     border-bottom:1px solid var(--color-gray);
-     font-size:15px; font-family:var(--font-nanum); line-height:50px;
-     text-indent:30px; }
+     width: 100%; height:3.125rem; 
+     border-top:0.0625rem solid var(--color-gray);
+     border-bottom:0.0625rem solid var(--color-gray);
+     font-size:0.9375rem; font-family:var(--font-nanum); line-height:3.125rem;
+     text-indent:1.875rem; }
    .gnbBox dt.action i { color:var(--color-main);}
    .gnbBox dd { 
      display:none;
      width: 100%; height:auto; 
-     padding:5px 0 5px;
-     font-size:12px; font-family:var(--font-malgun); line-height:25px;
-     text-indent:30px; }
+     padding:0.3125rem 0 0.3125rem;
+     font-size:0.75rem; font-family:var(--font-malgun); line-height:1.5625rem;
+     text-indent:1.875rem; }
 
    .gnbBox dd > a { 
      display:block;
-     width:100%; height:25px; line-height:25px; }
+     width:100%; height:1.5625rem; line-height:1.5625rem; }
 
    .gnbBox dt > a { display:block; width: 100%; height: 100%; }
 
    .gnbBox dt i { 
-     float: right; line-height:50px; margin-right:40px; font-size:1rem; }
+     float: right; line-height:3.125rem; margin-right:2.5rem; font-size:1rem; }
 
 
     /* 
@@ -74,21 +74,21 @@
     1.form내부에 들어가는 input,label..inline-block요소(사이즈를 가질 수 있지만 옆으로 늘어나는요소)
     2.form내부에 p,hn,dl,ol,ul...모두 들어갈 수 있다.
     */
-   .gnbBox form { width:100%; height:auto; min-height:40px; }
+   .gnbBox form { width:100%; height:auto; min-height:2.5rem; }
 
    .gnbBox fieldset { 
-     height:auto; line-height:40px; 
+     height:auto; line-height:2.5rem; 
      padding:2.173913vw; box-sizing: border-box;
      text-align: center;
       }
 
-    .gnbBox fieldset > input { width:80%; max-width:180px; height:30px; border-radius:5px; }
+    .gnbBox fieldset > input { width:80%; max-width:11.25rem; height:1.875rem; border-radius:0.3125rem; }
 
     .gnbBox fieldset button { 
-     width:11.956521vw; max-width:55px; height:30px; 
-     border-radius:5px; border:1px solid var(--color-white);
+     width:11.956521vw; max-width:3.4375rem; height:1.875rem; 
+     border-radius:0.3125rem; border:0.0625rem solid var(--color-white);
      color:var(--color-white); font-family:var(--font-nanum);
-     font-size:12px; box-sizing: border-box;
+     font-size:0.75rem; box-sizing: border-box;
      }
 
     

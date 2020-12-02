@@ -49,7 +49,7 @@
         //animate
         eventAreaUl.animate({'marginLeft': slideN * (-100 /3)+ '%'},function(){
             if(slideN <= -3){
-                slideN = eventAreaLiLen-3
+                slideN = eventAreaLiLen-3;
                 eventAreaUl.css({'marginLeft': slideN * (-100 /3)+ '%'});
             }
             // console.log(slideN)

@@ -1,24 +1,24 @@
 /* flagship_menuBox_mobile.css */
 
-@media screen and (max-width:480px){
+@media screen and (max-width:30rem){
   #menu_content { 
     position: relative;
-    width:auto; max-width:460px; height:auto; margin:auto;
-    padding:10px; box-sizing: border-box;
+    width:auto; max-width:28.75rem; height:auto; margin:auto;
+    padding:0.625rem; box-sizing: border-box;
   }
   
   #menu_content > h3 { 
-    margin-top:60px; font-size:25px ; 
+    margin-top:3.75rem; font-size:1.5625rem ; 
     font-family:var(--font-malgun); text-align: center; }
 
-  #menu_content .title { font-size:13px; margin-top:8px; margin-bottom:10px; text-align: center; color:var(--color-main); }
+  #menu_content .title { font-size:0.8125rem; margin-top:0.5rem; margin-bottom:0.625rem; text-align: center; color:var(--color-main); }
 
-  .inner_bg_img { height:81px; background-image: url(../../../img/bg_brand_mobile_img.jpg);  }
+  .inner_bg_img { height:5.0625rem; background-image: url(../../../img/bg_brand_mobile_img.jpg);  }
 
   .breadcrumb {
-      position: absolute; top:10px; right:10px; margin-bottom:30px;
-      width:150px; height:auto; 
-      font-size:13px; font-family:var(--font-malgun); } 
+      position: absolute; top:0.625rem; right:0.625rem; margin-bottom:1.875rem;
+      width:9.375rem; height:auto; 
+      font-size:0.8125rem; font-family:var(--font-malgun); } 
 
   .menu_list { width: 100%; height:auto; background-color: khaki;}
 

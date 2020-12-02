@@ -1,0 +1,12 @@
+/* Tablet 1024px  / design 940px  */
+
+@media screen and (min-width:481px) and (max-width:1024px) {
+  #viewBox { 
+    position: relative; max-width:1024px; height:500px; }
+  /* indicator */
+  .view_indicator { 
+    position: absolute; left:50%; transform: translateX(-50%); bottom:29px; 
+    width:174px; height:31px; 
+    padding:8px 16px; box-sizing: border-box; }
+  .view_indicator li { float: left; width:15px; height:15px; margin-right:16px; }
+}

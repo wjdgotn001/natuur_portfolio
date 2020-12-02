@@ -1,0 +1,19 @@
+/* Tablet 1024px  / design 940px  */
+
+@media screen and (min-width:481px) and (max-width:1024px) {
+  #snsBox { 
+      height:42.553191vw; min-height:300px; max-height:400px; 
+      padding:6.382978vw 10.851063vw 0/*60px 102px 0*/; box-sizing: border-box; }
+  #snsBox > h2 { font-size:30px; margin-bottom:40px;}
+
+  .sns_image { 
+      width:96%; height:22vw; margin:auto; margin-top:50px; }
+  .sns_image > li { 
+      float: left;
+      width:22%; height:17vw;  
+      margin-right:2.5vw /*30px*/; background-color: var(--gray_02); }
+  .sns_image > li:nth-child(4) { margin-right:0; }
+  .sns_image > li:nth-child(5) { display:none; }
+  .sns_image > li:last-child { display:none; }
+
+}

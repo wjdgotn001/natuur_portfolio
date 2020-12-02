@@ -1,46 +1,46 @@
-/* laptop 1440px / design 1420px  */
+/* laptop 90rem / design 88.75rem  */
 
-@media screen and (min-width:1025px) {
+@media screen and (min-width:64.0625rem) {
   #headBox { 
-    position: relative; z-index: 1000; width:1420px; height:500px; margin:auto;
-    padding:40px 10px; box-sizing: border-box; }
+    position: relative; z-index: 1000; width:88.75rem; height:31.25rem; margin:auto;
+    padding:2.5rem 0.625rem; box-sizing: border-box; }
   #headBox #unbBox { 
-    position: absolute; top:40px; right:10px;
-    width:355px; height:40px;
-    margin-bottom:20px; }
+    position: absolute; top:2.5rem; right:0.625rem;
+    width:22.1875rem; height:2.5rem;
+    margin-bottom:1.25rem; }
   #headBox > h1 { 
-    position: absolute; top:70px; left:50%; z-index: 100;
-    width:300px; height:150px; margin-bottom:70px; 
-    transform: translateX(-50%); border-radius:100px;
+    position: absolute; top:4.375rem; left:50%; z-index: 100;
+    width:18.75rem; height:9.375rem; margin-bottom:4.375rem; 
+    transform: translateX(-50%); border-radius:6.25rem;
     background-image: url(../../../img/logo.png); }
   #headBox a { display:block; width: 100%; height: 100%; }
 
   /*unbBox영역 */
   #unbBox > ul { width:100%; height:auto; }
-  #unbBox li { float: left; width:32%; height:auto; border-left:1px solid #ddd;   }
-  #unbBox a { line-height:40px; }
+  #unbBox li { float: left; width:32%; height:auto; border-left:0.0625rem solid #ddd;   }
+  #unbBox a { line-height:2.5rem; }
   .gnbBox li { float: left; width:16.666666%; height:auto; }
 
   /*gnbBox영역 */
   #gnbBox_wrap { 
-    position: absolute; left:50%; transform: translateX(-50%); bottom:165px; 
-    width:1075px; height:60px; border-top:1px solid #333;}
+    position: absolute; left:50%; transform: translateX(-50%); bottom:10.3125rem; 
+    width:67.1875rem; height:3.75rem; border-top:0.0625rem solid #333;}
   .gnbBox { width:100%; height:auto; background-color: var(--color-white); }
-  .gnbBox_menu { float: left; width:auto; min-width:700px; height: 100%; margin-right:50px; }
-  .gnbBox_menu > li { float: left; width:140px; height:100%; margin-right:15px; }
+  .gnbBox_menu { float: left; width:auto; min-width:43.75rem; height: 100%; margin-right:3.125rem; }
+  .gnbBox_menu > li { float: left; width:8.75rem; height:100%; margin-right:0.9375rem; }
   .gnbBox_menu > li:last-child { margin-right:0; }
   #gnbBox_wrap::before { 
     display:block; content:" "; 
     position: absolute; left: 0; bottom: 0; 
-    width: 100%; height: 0; border-top:1px solid #333; }
+    width: 100%; height: 0; border-top:0.0625rem solid #333; }
 
   .gnbBox > li { float: left; width:16.666666%; height:auto; }
   .gnbBox dl { width:100%; height:auto; }
-  .gnbBox dt { position: relative; width:100%; height:60px; }
-  .gnbBox dt > a { font-size:20px; text-align: center; line-height:60px; }
+  .gnbBox dt { position: relative; width:100%; height:3.75rem; }
+  .gnbBox dt > a { font-size:1.25rem; text-align: center; line-height:3.75rem; }
   .gnbBox dd { 
     width:100%; height:auto; color:var(--color-black); 
-    padding:15px 0; text-indent: 10px; font-size:16px; }
+    padding:0.9375rem 0; text-indent: 0.625rem; font-size:1rem; }
   #headBox .gnbBox dd > a { 
     display:block;
     padding:0.7rem 0; margin-bottom: 0.3rem; box-sizing: border-box;  height:auto; }
@@ -49,8 +49,8 @@
   .gnbBox a:focus { color:var(--color-main);}
 /* ===================================================== */
   /*gnb_etc영역*/
-  #headBox .gnb_etc { float: right; width:110px; height:auto; margin-top:10px; }
-  .gnb_etc > li { float: left; width: 40px; height:40px; margin-right:10px; }
+  #headBox .gnb_etc { float: right; width:6.875rem; height:auto; margin-top:0.625rem; }
+  .gnb_etc > li { float: left; width: 2.5rem; height:2.5rem; margin-right:0.625rem; }
   .gnb_etc > li:nth-child(1) {
      background-image: url(../../../img/ico_facebook.png);
      background-repeat: no-repeat;

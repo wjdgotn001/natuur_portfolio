@@ -1,51 +1,51 @@
 /* sub_advertising_story_mobile.css */
 
-@media screen and (max-width:480px){
+@media screen and (max-width:30rem){
     #adver_story { 
         position: relative;
-        width:auto; max-width:460px; height:auto; margin:auto;
-        padding:10px; box-sizing: border-box; }
+        width:auto; max-width:28.75rem; height:auto; margin:auto;
+        padding:0.625rem; box-sizing: border-box; }
 
     #adver_story > h3 { 
-        margin-top:60px; font-size:25px ; 
+        margin-top:3.75rem; font-size:1.5625rem ; 
         font-family:var(--font-malgun); text-align: center; }
 
-    #adver_story .title { font-size:13px; margin-top:8px; text-align: center; color:var(--color-main); }
+    #adver_story .title { font-size:0.8125rem; margin-top:0.5rem; text-align: center; color:var(--color-main); }
 
-    .inner_bg_img { height:81px; background-image: url(../../../img/bg_brand_mobile_img.jpg);  }
+    .inner_bg_img { height:5.0625rem; background-image: url(../../../img/bg_brand_mobile_img.jpg);  }
 
     .breadcrumb {
-        position: absolute; top:10px; right:10px; margin-bottom:30px;
-        width:150px; height:auto; 
-        font-size:13px; font-family:var(--font-malgun); } 
+        position: absolute; top:0.625rem; right:0.625rem; margin-bottom:1.875rem;
+        width:9.375rem; height:auto; 
+        font-size:0.8125rem; font-family:var(--font-malgun); } 
 
     .adver_area { width:100%; height:auto; }
 
     .adver_area > h4 { 
-        font-size:18px; text-align: center; 
+        font-size:1.125rem; text-align: center; 
         text-decoration: underline;
-        padding:30px 0; box-sizing: border-box; }
+        padding:1.875rem 0; box-sizing: border-box; }
 
     .adver_contents { width: 100%; height:auto; }
 
     .adver_contents ul { width: 100%; height:100%; }
 
-    .adver_contents ul > li { width:304px; height:auto; margin:auto; margin-bottom:30px; border:1px solid var(--color-dark_gray); }
-    .adver_contents .play { width: 100%; height:231px; }
-    .adver_contents .play > iframe { width: 304px; height: 231px; border:0; } /*iframe사이즈변경, border값 초기화*/
-    .adver_contents .play_title { width: 100%; height:auto; padding:10px; box-sizing: border-box; }
-    .adver_contents .play_title p { font-size:13px; font-family:var(--font-malgun); margin-bottom:20px;  }
-    .adver_contents span { font-size:13px; font-family:var(--font-malgun); }
+    .adver_contents ul > li { width:19rem; height:auto; margin:auto; margin-bottom:1.875rem; border:0.0625rem solid var(--color-dark_gray); }
+    .adver_contents .play { width: 100%; height:14.4375rem; }
+    .adver_contents .play > iframe { width: 19rem; height: 14.4375rem; border:0; } /*iframe사이즈변경, border값 초기화*/
+    .adver_contents .play_title { width: 100%; height:auto; padding:0.625rem; box-sizing: border-box; }
+    .adver_contents .play_title p { font-size:0.8125rem; font-family:var(--font-malgun); margin-bottom:1.25rem;  }
+    .adver_contents span { font-size:0.8125rem; font-family:var(--font-malgun); }
 
-    .play_title p { width: 100%; height:50px; }
+    .play_title p { width: 100%; height:3.125rem; }
 
     .more_btn { 
-        width:120px; height:30px; 
-        margin:auto; margin-bottom:50px; 
-        border:1px solid var(--color-main); }
+        width:7.5rem; height:1.875rem; 
+        margin:auto; margin-bottom:3.125rem; 
+        border:0.0625rem solid var(--color-main); }
     .more_btn > button { 
         display:block; width: 100%; height: 100%;
-        font-size:13px; font-family:var(--font-malgun); }
+        font-size:0.8125rem; font-family:var(--font-malgun); }
 
     .more_btn > button:hover { background-color:var(--color-main); color:#fff; }
         

@@ -1,13 +1,13 @@
-/* laptop 1440px / design 1420px  */
+/* laptop 90rem / design 88.75rem  */
 
-@media screen and (min-width:1025px) {
+@media screen and (min-width:64.0625rem) {
   #viewBox { 
     position: relative; 
-    min-width:1420px; height:900px; margin:auto;  }
+    min-width:88.75rem; height:56.25rem; margin:auto;  }
   /* indicator */
   .view_indicator { 
-    position: absolute; left:50%; transform: translateX(-50%); bottom:60px; 
-    width:220px; height:40px; 
-    padding:10px 20px; box-sizing: border-box; } 
-  .view_indicator li { float: left; width:20px; height:20px; margin-right:20px; }
+    position: absolute; left:50%; transform: translateX(-50%); bottom:3.75rem; 
+    width:13.75rem; height:2.5rem; 
+    padding:0.625rem 1.25rem; box-sizing: border-box; } 
+  .view_indicator li { float: left; width:1.25rem; height:1.25rem; margin-right:1.25rem; }
 }

@@ -48,7 +48,7 @@
             for(; i<len ; i+=1 ){
                if( i >= maxLen ){
                 more.remove();
-                  break
+                  break;
                }else{
                 adverConten.children('ul').append(iframeCode);
                 liEq = adverConten.find('li').eq(i);

@@ -62,7 +62,7 @@
         gnbBox.removeClass('action');
         setTimeout(function(){
             gnbBox.stop().hide();
-        }, 500)
+        }, 500);
       
     });
 

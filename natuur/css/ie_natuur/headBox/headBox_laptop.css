@@ -1,0 +1,67 @@
+/* laptop 1440px / design 1420px  */
+
+@media screen and (min-width:1025px) {
+  #headBox { 
+    position: relative; z-index: 1000; width:1420px; height:500px; margin:auto;
+    padding:40px 10px; box-sizing: border-box; }
+  #headBox #unbBox { 
+    position: absolute; top:40px; right:10px;
+    width:355px; height:40px;
+    margin-bottom:20px; }
+  #headBox > h1 { 
+    position: absolute; top:70px; left:50%; z-index: 100;
+    width:300px; height:150px; margin-bottom:70px; 
+    transform: translateX(-50%); border-radius:100px;
+    background-image: url(../../../img/logo.png); }
+  #headBox a { display:block; width: 100%; height: 100%; }
+
+  /*unbBox영역 */
+  #unbBox > ul { width:100%; height:auto; }
+  #unbBox li { float: left; width:32%; height:auto; border-left:1px solid #ddd;   }
+  #unbBox a { line-height:40px; }
+  .gnbBox li { float: left; width:16.666666%; height:auto; }
+
+  /*gnbBox영역 */
+  #gnbBox_wrap { 
+    position: absolute; left:50%; transform: translateX(-50%); bottom:165px; 
+    width:1075px; height:60px; border-top:1px solid #333;}
+  .gnbBox { width:100%; height:auto; background-color: var(--color-white); }
+  .gnbBox_menu { float: left; width:auto; min-width:700px; height: 100%; margin-right:50px; }
+  .gnbBox_menu > li { float: left; width:140px; height:100%; margin-right:15px; }
+  .gnbBox_menu > li:last-child { margin-right:0; }
+  #gnbBox_wrap::before { 
+    display:block; content:" "; 
+    position: absolute; left: 0; bottom: 0; 
+    width: 100%; height: 0; border-top:1px solid #333; }
+
+  .gnbBox > li { float: left; width:16.666666%; height:auto; }
+  .gnbBox dl { width:100%; height:auto; }
+  .gnbBox dt { position: relative; width:100%; height:60px; }
+  .gnbBox dt > a { font-size:20px; text-align: center; line-height:60px; }
+  .gnbBox dd { 
+    width:100%; height:auto; color:var(--color-black); 
+    padding:15px 0; text-indent: 10px; font-size:16px; }
+  #headBox .gnbBox dd > a { 
+    display:block;
+    padding:0.7rem 0; margin-bottom: 0.3rem; box-sizing: border-box;  height:auto; }
+  /* gnbBox:hover */
+  .gnbBox a:hover, 
+  .gnbBox a:focus { color:var(--color-main);}
+/* ===================================================== */
+  /*gnb_etc영역*/
+  #headBox .gnb_etc { float: right; width:110px; height:auto; margin-top:10px; }
+  .gnb_etc > li { float: left; width: 40px; height:40px; margin-right:10px; }
+  .gnb_etc > li:nth-child(1) {
+     background-image: url(../../../img/ico_facebook.png);
+     background-repeat: no-repeat;
+     background-position: 50% 50%;
+     background-size: contain;
+    }
+  .gnb_etc > li:nth-child(2) { 
+    background-image: url(../../../img/ico_instagram.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+    margin-right:0; }
+
+}
