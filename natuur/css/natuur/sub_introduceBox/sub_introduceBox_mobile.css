@@ -63,4 +63,26 @@
 
     .tab_menu_02 img { width: 100%; height: 100%; }
 
+      /* animation */
+   @keyframes fadeIn{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+.animate{
+    animation:fadeIn 2s forwards ease-in;
+    transition:3s linear;
+}
+.story_brand.animate { 
+ transform: translate(0);
+}
+.story_brand p.animate { 
+ transform: translate(0);
+}
+.capitalize.animate {
+ transform: translate(0);
+}
+.main_bg.animate {
+ transform: translate(0);
+}
+
 } 

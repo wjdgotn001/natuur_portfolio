@@ -7,7 +7,7 @@
 
     { 'titleNav': {'name':'플래그십','link':'natuur.html', 'target':'_blank'},
       'subNav'  : [{'subT':'store'}, 
-                   {'subT':'menu', 'subLink':'./menu.html'}, 
+                   {'subT':'menu', 'subLink':'./flagship_menu.html'}, 
                    {'subT':'매장위치'}] },
 
     { 'titleNav': {'name':'메뉴','link':'natuur.html', 'target':'_blank'},
