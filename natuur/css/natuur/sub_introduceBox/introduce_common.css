@@ -36,7 +36,9 @@ html,body { width:100%; height:auto; }
 .inner_bg_img {
     width:100%; 
     background-repeat: no-repeat;
-    background-size: contain; }
+    background-size: contain;
+    background-position: 50% 50%;
+ }
 
 .breadcrumb > li { float: left; margin-right:0.625rem;}
 .breadcrumb > li:nth-child(2) { margin-right:0rem;}

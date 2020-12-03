@@ -12,7 +12,7 @@
 
     #introduceBox .title { font-size:0.8125rem; margin-top:0.5rem; text-align: center; color:var(--color-main); }
 
-    .inner_bg_img { height:5.0625rem; background-image: url(../../../img/bg_brand_mobile_img.jpg); }
+    .inner_bg_img { height:6.25rem; background-image: url(../../../img/bg_brand_mobile_img.jpg); }
 
     .breadcrumb {
         position: absolute; top:0.625rem; right:0.625rem; margin-bottom:1.875rem;

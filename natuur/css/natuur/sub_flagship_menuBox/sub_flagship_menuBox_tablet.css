@@ -1,0 +1,20 @@
+@media screen and (min-width:30.0625rem) and (max-width:64rem) {
+    #menu_content { 
+        position: relative; width:auto; max-width:60rem; height:auto;
+        margin:auto; padding:1.25rem 2.625rem; padding-bottom:0; box-sizing: border-box;   }
+
+    #menu_content h3 { 
+        font-size:1.875rem; text-align: center; font-family:var(--font-malgun);
+        margin:5rem 0 0.625rem; }  
+
+    #menu_content .title { 
+        font-size: 1rem; text-align: center; font-family:var(--font-malgun);
+        margin-bottom:1.875rem; color:var(--color-main); }
+
+    .inner_bg_img { height: 5.5rem; background-image: url(../../../img/bg_brand_pc_img.jpg); }
+
+    .breadcrumb { 
+        position: absolute; top:1.875rem; right:2.625rem; font-size:0.8125rem;
+        width:auto; height:auto; }
+
+}

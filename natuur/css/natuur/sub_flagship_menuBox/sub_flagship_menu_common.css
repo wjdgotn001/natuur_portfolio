@@ -32,8 +32,11 @@ html,body { width:100%; height:auto; }
 
 /* flagship_menu */
 .inner_bg_img {
-    width:100%;  
-    background-repeat: no-repeat; }
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+ }
 
 .breadcrumb > li { float: left; margin-right:0.625rem;}
 .breadcrumb > li:nth-child(2) { margin-right:0rem;}
@@ -55,5 +58,5 @@ html,body { width:100%; height:auto; }
 .search > a { 
     display:block; width: 100%; height: 100%; 
     font-size: 0.9375rem; text-align: center;  }
-
+    
   
