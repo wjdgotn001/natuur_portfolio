@@ -25,7 +25,7 @@
   #gnbBox_wrap { 
     position: absolute; left:50%; transform: translateX(-50%); bottom:165px; 
     width:1075px; height:60px; border-top:1px solid #333;}
-  .gnbBox { width:100%; height:auto; background-color: var(--color-white); }
+  .gnbBox { width:100%; height:auto; background-color: #fff; }
   .gnbBox_menu { float: left; width:auto; min-width:700px; height: 100%; margin-right:50px; }
   .gnbBox_menu > li { float: left; width:140px; height:100%; margin-right:15px; }
   .gnbBox_menu > li:last-child { margin-right:0; }
@@ -39,14 +39,14 @@
   .gnbBox dt { position: relative; width:100%; height:60px; }
   .gnbBox dt > a { font-size:20px; text-align: center; line-height:60px; }
   .gnbBox dd { 
-    width:100%; height:auto; color:var(--color-black); 
+    width:100%; height:auto; color:#333; 
     padding:15px 0; text-indent: 10px; font-size:16px; }
   #headBox .gnbBox dd > a { 
     display:block;
-    padding:0.7rem 0; margin-bottom: 0.3rem; box-sizing: border-box;  height:auto; }
+    padding:11.2px 0; margin-bottom: 4.8px; box-sizing: border-box;  height:auto; }
   /* gnbBox:hover */
   .gnbBox a:hover, 
-  .gnbBox a:focus { color:var(--color-main);}
+  .gnbBox a:focus { color:#005629;}
 /* ===================================================== */
   /*gnb_etc영역*/
   #headBox .gnb_etc { float: right; width:110px; height:auto; margin-top:10px; }

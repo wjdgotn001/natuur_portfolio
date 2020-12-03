@@ -10,7 +10,7 @@
     .store_search { 
         width:28.169014vw; max-width:400px; height:110px; 
         margin:auto; margin-top:70px;
-        border-radius:50px; background-color:var(--color-white); }
+        border-radius:50px; background-color:#fff; }
     .store_search > a { line-height:110px; }
     .store_search span { font-size:30px; }
 
@@ -19,27 +19,27 @@
         position: absolute; bottom:10px; left:50%; z-index: 1000;
         transform: translate(-50%);
         width:52.8169vw; max-width:750px; height:700px; 
-        border:3px solid var(--color-point);
+        border:3px solid #c54d2c;
         border-bottom-left-radius:30px; border-bottom-right-radius:30px; 
-        background-color: var(--color-white); }
+        background-color: #fff; }
 
     .search_area  > .search { 
         width: 100%; height:500px; 
-        background-color: var(--color-white); 
-        border-bottom:1px solid var(--color-dark_gray); }
+        background-color: #fff; 
+        border-bottom:1px solid #666; }
 
     .search_area h3 { 
         font-size:40px; text-align: center; 
-        font-family:var(--font-malgun); padding:60px 0 20px; box-sizing: border-box;}
+        font-family:'Malgun Gothic'; padding:60px 0 20px; box-sizing: border-box;}
 
     .search > p:nth-of-type(1) { 
         font-size:18px; text-align: center; 
         margin-bottom:50px;
-        color:var(--color-main); }
+        color:#005629; }
 
     .close { position: absolute; top:5px; right:10px;}
 
-    .close i { font-size:2rem; }
+    .close i { font-size:32px; }
 
     .store_img { 
         position: absolute; left:30px;
@@ -61,8 +61,8 @@
 
     .store_info > a { 
         display:block; width: 100%; height: 100%;
-        text-align: center; border:1px solid var(--color-main); 
-        color:var(--color-point);
+        text-align: center; border:1px solid #005629; 
+        color:#c54d2c;
         padding:5px; border-radius:30px; }
 
     #searchBox form { position: absolute; bottom:70px; width:100%; height:auto; }
@@ -70,7 +70,7 @@
     #searchBox fieldset { width:auto; min-width:180px; height: 100%; }
 
     .search_info p { 
-        font-family:var(--font-malgun); text-align: center;
+        font-family:'Malgun Gothic'; text-align: center;
         margin-bottom: 30px;
         font-size:20px; }
 
@@ -80,11 +80,11 @@
 
     .form_group > input { 
         width:315px; height:32px; 
-        border:1px solid var(--color-dark_gray);  }
+        border:1px solid #666;  }
 
     .search_btn { 
         float: right; width:70px;
-        border:1px solid var(--color-dark_gray); }
+        border:1px solid #666; }
 
     #searchBox form button { 
         display:block; width: 100%; height: 100%; 

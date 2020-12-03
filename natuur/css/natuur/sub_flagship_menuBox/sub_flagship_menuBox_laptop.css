@@ -43,6 +43,15 @@
   .menu_list i { width:100%; height:auto; margin-bottom:20px; font-size:6.25rem; text-align: center;}
 
   /* 게시판영역 */
+  .menu_area { 
+    width:988px; height:auto; min-height:1000px; 
+    margin:auto; background-color: lightgreen; }
+
+  .menu_area > li { 
+    float: left; width:232px; height:auto; 
+    margin-bottom:20px; margin-right:20px; background-color: lightseagreen; }
+
+  .menu_area > li:nth-child(4n) { margin-right:0; }
   
   
   
@@ -53,7 +62,7 @@
 
   
   /* 인디케이터 영역 */
-
+.pagination { width:400px; height:45px; margin:auto; background-color: lightcoral; }
 
 
 

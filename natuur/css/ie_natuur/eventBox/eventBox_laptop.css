@@ -11,7 +11,7 @@
     .eventBtn { 
       position: absolute; top:50%; left:50%; transform: translateX(-50%);
       width:98%; max-width:1420px; height:0; }
-    .eventBtn i { font-size:3rem; }
+    .eventBtn i { font-size:48px; }
   
     /* event_area */  
     .event_area { 
@@ -26,8 +26,8 @@
     .event_area dd > a { 
       display:block; width:100%; height:auto; }
     .event_area dd p > span{ text-transform: uppercase; }
-    .event_area dd p { text-indent:14px; font-size: 17px; font-family:var(--font-malgun); margin-bottom:5px; }
-    .event_area dd p:nth-child(2) { text-indent:14px; font-size: 14px; color:var(--color-dark_gray); font-family:var(--font-nanum); }
+    .event_area dd p { text-indent:14px; font-size: 17px; font-family:'Malgun Gothic'; margin-bottom:5px; }
+    .event_area dd p:nth-child(2) { text-indent:14px; font-size: 14px; color:#666; font-family:'NanumGothic'; }
   
   
   }

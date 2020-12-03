@@ -8,7 +8,7 @@
         width:53.260869vw; max-width:210px; height:65px; 
         margin:auto; border-radius:40px; 
         margin-top:8.695652vw /*40px*/;
-        background-color:var(--color-white); }
+        background-color:#fff; }
 
     .store_search a { 
         padding:0 6.521739vw /*0 30px*/; box-sizing: border-box;
@@ -21,27 +21,27 @@
         position: absolute; bottom:10px; left:50%; z-index: 1000;
         transform: translate(-50%);
         width:76.0869vw; max-width:350px; height:400px;
-        border:2px solid var(--color-point);
+        border:2px solid #c54d2c;
         border-bottom-left-radius:20px; border-bottom-right-radius:20px; 
-        background-color: var(--color-white); }
+        background-color:#fff; }
 
     .search_area  > .search { 
         width: 100%; height:300px; 
-        background-color: var(--color-white); 
-        border-bottom:1px solid var(--color-dark_gray); }
+        background-color:#fff; 
+        border-bottom:1px solid #666; }
 
     .search_area h3 { 
         font-size:20px; text-align: center; 
-        font-family:var(--font-malgun); padding:30px 0 5px; box-sizing: border-box;}
+        font-family:'Malgun Gothic'; padding:30px 0 5px; box-sizing: border-box;}
 
     .search > p:nth-of-type(1) { 
         font-size:12px; text-align: center; 
         margin-bottom:2.1739vw /*10px*/;
-        color:var(--color-main); }
+        color:#005629; }
 
     .close { position: absolute; top:5px; right:10px;}
 
-    .close i { font-size:1.5rem; }
+    .close i { font-size:24px; }
 
     .store_img { 
         position: absolute; left:20px;
@@ -62,8 +62,8 @@
 
     .store_info > a { 
         display:block; width: 100%; height: 100%;
-        text-align: center; border:1px solid var(--color-main); 
-        color:var(--color-point);
+        text-align: center; border:1px solid #005629; 
+        color:#c54d2c;
         padding:5px; border-radius:20px; }
 
     #searchBox form { position: absolute; bottom:30px; width:100%; height:auto; }
@@ -71,7 +71,7 @@
     #searchBox fieldset { width:auto; min-width:180px; height: 100%; }
 
     .search_info p { 
-        font-family:var(--font-malgun); 
+        font-family:'Malgun Gothic'; 
         text-align: center; margin-bottom: 10px;
         font-size:13px; }
 
@@ -81,12 +81,12 @@
 
     .form_group > input { 
         width:165px; height:28px; 
-        border:1px solid var(--color-dark_gray);  }
+        border:1px solid #666;  }
 
     .search_btn { 
         float: right; width:36px; height:28px;
         box-sizing: border-box;
-        border:1px solid var(--color-dark_gray); }
+        border:1px solid #666; }
 
     #searchBox form button { 
         display:block; width: 100%; height: 100%; 

@@ -9,7 +9,7 @@
     .eventBtn { 
       position: absolute; top:50%; left:50%; z-index: 900; transform: translateX(-50%);
       width:98%; height:0; max-width:600px; }
-    .eventBtn i { font-size:3rem; }
+    .eventBtn i { font-size:48px; }
     
     
     /* event_area */  
@@ -22,7 +22,7 @@
     .event_area dd { width: 100%; height:50px; }
     .event_area dd > a { 
       display:block; width: 100%; height:auto; 
-      font-size:13px; font-family:var(--font-malgun); }
-    .event_area dd p { font-size: 17px; font-family:var(--font-malgun); margin-bottom:5px; }
-    .event_area dd p:nth-child(2) { font-size: 14px; color:var(--color-dark_gray); font-family:var(--font-nanum); }
+      font-size:13px; font-family:'Malgun Gothic'; }
+    .event_area dd p { font-size: 17px; font-family:'Malgun Gothic'; margin-bottom:5px; }
+    .event_area dd p:nth-child(2) { font-size: 14px; color:#666; font-family:'NanumGothic'; }
   }

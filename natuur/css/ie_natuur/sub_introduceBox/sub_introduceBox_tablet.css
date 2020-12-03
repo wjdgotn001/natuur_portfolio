@@ -3,15 +3,15 @@
 @media screen and (min-width:481px) and (max-width:1024px){
     #introduceBox { 
         position: relative; width:auto; max-width:960px; height:auto;
-        margin:auto; padding:20px 42px; box-sizing: border-box;   }
+        margin:auto; padding:20px 42px; box-sizing: border-box; }
 
     #introduceBox h3 { 
-        font-size:30px; text-align: center; font-family:var(--font-malgun);
+        font-size:30px; text-align: center; font-family:'Malgun Gothic';
         margin:80px 0 10px; }  
 
     #introduceBox .title { 
-        font-size: 16px; text-align: center; font-family:var(--font-malgun);
-        margin-bottom:30px; color:var(--color-main); }
+        font-size: 16px; text-align: center; font-family:'Malgun Gothic';
+        margin-bottom:30px; color:#005629; }
 
     .inner_bg_img { height: 88px; background-image: url(../../../img/bg_brand_pc_img.jpg); }
 
@@ -24,13 +24,13 @@
         overflow: hidden;
         width:100%; max-width:587px; height:40px; margin:auto; 
         margin-bottom: 30px; box-sizing: border-box;
-        border:1px solid var(--color-dark_gray); border-radius:20px; }
+        border:1px solid #666; border-radius:20px; }
 
     .title_list > li { 
         float: left; 
         width:50%; height:100%; 
         text-align: center; line-height:40px;
-        font-size:13px; font-family:var(--font-malgun);}
+        font-size:13px; font-family:'Malgun Gothic';}
 
     /* tab공통 영역 */
     .tab_menu_01,

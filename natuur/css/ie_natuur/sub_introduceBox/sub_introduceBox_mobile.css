@@ -8,21 +8,21 @@
     
     #introduceBox > h3 { 
         margin-top:60px; font-size:25px ; 
-        font-family:var(--font-malgun); text-align: center; }
+        font-family:'Malgun Gothic'; text-align: center; }
 
-    #introduceBox .title { font-size:13px; margin-top:8px; text-align: center; color:var(--color-main); }
+    #introduceBox .title { font-size:13px; margin-top:8px; text-align: center; color:#005629; }
 
     .inner_bg_img { height:81px; background-image: url(../../../img/bg_brand_mobile_img.jpg); }
 
     .breadcrumb {
         position: absolute; top:10px; right:10px; margin-bottom:30px;
         width:150px; height:auto; 
-        font-size:13px; font-family:var(--font-malgun); }   
+        font-size:13px; font-family:'Malgun Gothic'; }   
    
     .title_list { 
         overflow: hidden;
         width:250px; height:80px; margin:auto; 
-        border:1px solid var(--color-dark_gray); box-sizing: border-box;
+        border:1px solid #666; box-sizing: border-box;
         border-radius:20px; margin-top:30px; }
 
     .title_list > li {
@@ -32,7 +32,7 @@
     .title_list > li:first-child:after { 
         display:block; content:" ";
         width: 80%; height:1px; margin:auto;
-        background-color: var(--color-gray); }
+        background-color: #9d9d9d; }
 
     /* tab공통 영역 */
     .tab_menu_01,

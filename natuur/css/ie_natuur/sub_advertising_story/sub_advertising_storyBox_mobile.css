@@ -8,16 +8,16 @@
 
     #adver_story > h3 { 
         margin-top:60px; font-size:25px ; 
-        font-family:var(--font-malgun); text-align: center; }
+        font-family:'Malgun Gothic'; text-align: center; }
 
-    #adver_story .title { font-size:13px; margin-top:8px; text-align: center; color:var(--color-main); }
+    #adver_story .title { font-size:13px; margin-top:8px; text-align: center; color:#005629; }
 
     .inner_bg_img { height:81px; background-image: url(../../../img/bg_brand_mobile_img.jpg);  }
 
     .breadcrumb {
         position: absolute; top:10px; right:10px; margin-bottom:30px;
         width:150px; height:auto; 
-        font-size:13px; font-family:var(--font-malgun); } 
+        font-size:13px; font-family:'Malgun Gothic'; } 
 
     .adver_area { width:100%; height:auto; }
 
@@ -30,23 +30,23 @@
 
     .adver_contents ul { width: 100%; height:100%; }
 
-    .adver_contents ul > li { width:304px; height:auto; margin:auto; margin-bottom:30px; border:1px solid var(--color-dark_gray); }
+    .adver_contents ul > li { width:304px; height:auto; margin:auto; margin-bottom:30px; border:1px solid #666; }
     .adver_contents .play { width: 100%; height:231px; }
     .adver_contents .play > iframe { width: 304px; height: 231px; border:0; } /*iframe사이즈변경, border값 초기화*/
     .adver_contents .play_title { width: 100%; height:auto; padding:10px; box-sizing: border-box; }
-    .adver_contents .play_title p { font-size:13px; font-family:var(--font-malgun); margin-bottom:20px;  }
-    .adver_contents span { font-size:13px; font-family:var(--font-malgun); }
+    .adver_contents .play_title p { font-size:13px; font-family:'Malgun Gothic'; margin-bottom:20px;  }
+    .adver_contents span { font-size:13px; font-family:'Malgun Gothic'; }
 
     .play_title p { width: 100%; height:50px; }
 
     .more_btn { 
         width:120px; height:30px; 
         margin:auto; margin-bottom:50px; 
-        border:1px solid var(--color-main); }
+        border:1px solid #005629; }
     .more_btn > button { 
         display:block; width: 100%; height: 100%;
-        font-size:13px; font-family:var(--font-malgun); }
+        font-size:13px; font-family:'Malgun Gothic'; }
 
-    .more_btn > button:hover { background-color:var(--color-main); color:#fff; }
+    .more_btn > button:hover { background-color:#005629; color:#fff; }
         
 }

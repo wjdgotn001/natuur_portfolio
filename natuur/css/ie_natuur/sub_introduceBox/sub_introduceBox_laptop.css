@@ -10,12 +10,12 @@
         padding:0 10px 100px; box-sizing: border-box; }
 
     #introduceBox h3 { 
-        font-size:30px; text-align: center; font-family:var(--font-malgun);
+        font-size:30px; text-align: center; font-family:'Malgun Gothic';
         margin:50px 0 10px; }  
 
     #introduceBox .title { 
-        font-size: 16px; text-align: center; font-family:var(--font-malgun);
-        margin-bottom:50px; color:var(--color-main); }
+        font-size: 16px; text-align: center; font-family:'Malgun Gothic';
+        margin-bottom:50px; color:#005629; }
 
     .inner_bg_img { height: 123px; background: url(../../../img/bg_brand_pc_img.jpg) no-repeat center top; }
 
@@ -28,13 +28,13 @@
         overflow: hidden;
         width:100%; max-width:587px; height:40px; margin:auto; 
         margin-bottom: 40px;
-        border:1px solid var(--color-dark_gray); border-radius:20px; }
+        border:1px solid #666; border-radius:20px; }
 
     .title_list > li { 
         float: left; 
         width:50%; height:100%; 
         text-align: center; line-height:40px;
-        font-size:15px; font-family:var(--font-malgun);}
+        font-size:15px; font-family:'Malgun Gothic';}
 
     /* tab공통 영역 */
     .tab_menu_01,  
@@ -47,7 +47,7 @@
         width: 100%; height:auto; margin:auto; }
 
     /* tab_01 */
-    .main_bg { width:500px; height:570px; margin:auto; opacity: 0; transform: translateY(-10rem);}
+    .main_bg { width:500px; height:570px; margin:auto; opacity: 0; transform: translateY(-160px);}
 
     .tab_menu_01 p { font-size:15px; opacity:0; }
 
