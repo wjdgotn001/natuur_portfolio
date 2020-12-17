@@ -2,7 +2,7 @@
 
 @media screen and (min-width:30.0625rem) and (max-width:64rem) {
   #viewBox { 
-    position: relative; max-width:64rem; height:31.25rem; }
+    position: relative; height:31.25rem; }
   /* indicator */
   .view_indicator { 
     position: absolute; left:50%; transform: translateX(-50%); bottom:1.8125rem; 

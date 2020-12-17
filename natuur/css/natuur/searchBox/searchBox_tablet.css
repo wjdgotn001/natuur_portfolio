@@ -12,8 +12,12 @@
         border-radius:2.5rem; margin-top: 6.382978vw/*3.75rem*/; 
         padding:0 2.659574vw /*0 1.5625rem*/; box-sizing: border-box; 
         background-color:var(--color-white); }
+        
     .store_search > a { line-height:4.9375rem; }
+
     .store_search span { font-size:1.125rem; } 
+
+    .store_search svg {margin-left:0.625rem;}
 
     /* 모달창 */
     .search_area { 
@@ -40,7 +44,7 @@
 
     .close { position: absolute; top:0.3125rem; right:0.625rem;}
 
-    .close i { font-size:2rem; }
+    .close svg { font-size:2rem; }
 
     .store_img { 
         position: absolute; left:1.25rem;

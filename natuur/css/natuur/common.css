@@ -1,4 +1,24 @@
 /* 공통 */
+/* 
+-moz-box-sizing:border-box;
+-ms-box-sizing:border-box;
+-o-box-sizing:border-box;
+box-sizing:border-box;
+
+background-position-y:20px;
+
+li{background-position: -10px 10px;}
+li:nth-child(1){background-position-y: 20px;}
+li:nth-child(2){background-position-y: 30px;}
+li:nth-child(3){background-position-y: 40px;}
+li:nth-child(4){background-position-y: 50px;}
+li:nth-child(5){background-position-y: 60px;}
+li:nth-child(6){background-position-y: 70px;}
+li:nth-child(7){background-position-y: 80px;}
+
+*/
+
+
 html,body { width:100%; height:auto; }
 #wrap { width: 100%; height:auto; min-height:31.25rem; }
 .headBox_wrap, 
@@ -98,11 +118,14 @@ html,body { width:100%; height:auto; }
  }
 
 .eventBtn button { 
-    float: left; width:1.875rem; height:2.5625rem;
-    transform: translateY(-50%); }
-.eventBtn button:first-child { float: right; }
-
-.eventBtn i { line-height:2.5625rem; color:var(--color-gray); }
+    float: left; width:1.875rem; height:3rem;
+    transform: translateY(-50%); font-size: 3rem; line-height:2.5625rem; color:#9d9d9d;}
+.eventBtn button:first-child { float: right;  }
+/* .eventBtn i {line-height:2.5625rem; color:#9d9d9d;} */
+@supports (color:var(--color-gray)){
+    .eventBtn button { line-height:2.5625rem;  color:var(--color-gray); }
+    /* .eventBtn i {line-height:2.5625rem; color:var(--color-gray);} */
+}
 
 
 /* menuBox===================== */
@@ -114,7 +137,10 @@ html,body { width:100%; height:auto; }
     text-align: center; font-size:2.5rem; 
     font-family:var(--font-malgun); text-transform: uppercase; }
 
-.menu_area li { background-color: var(--color-white);}
+.menu_area li { background-color:#fff;}
+@supports (color:var(--color-gray)){
+    .menu_area li { background-color: var(--color-white);}
+}
 
 .menu_area li div {
     background-size: contain;
@@ -130,12 +156,34 @@ html,body { width:100%; height:auto; }
     border:0.0625rem solid #333;
     border-radius:1.25rem; text-align:center; }
 
-.menu_area dd:nth-of-type(2) i { color:var(--color-point); margin-left:0.625rem; }
 .menu_area dd:nth-of-type(2) > a { 
     display:block; width: 100%; height: 100%; 
     text-align:center;
     border-radius:1.25rem; }
-.menu_area dd:nth-of-type(2):hover i { color:var(--color-main); }
+.menu_area dd:nth-of-type(2) > a > i,
+.menu_area dd:nth-of-type(2) > a > svg { margin-left:0.625rem; color:#c54d2c; }
+
+.menu_area dd:nth-of-type(2) a:hover i,
+.menu_area dd:nth-of-type(2) a:focus i,
+.menu_area dd:nth-of-type(2) a:hover svg,
+.menu_area dd:nth-of-type(2) a:focus svg { color:#005629; }
+
+@supports (color:var(--color-point)){
+    .menu_area dd:nth-of-type(2) > a > i,
+    .menu_area dd:nth-of-type(2) > a > svg{color:var(--color-point);}
+    .menu_area dd:nth-of-type(2) a:hover i,
+    .menu_area dd:nth-of-type(2) a:focus i,
+    .menu_area dd:nth-of-type(2) a:hover svg,
+    .menu_area dd:nth-of-type(2) a:focus svg { color:var(--color-main); }
+}
+
+
+
+/* 1. i사용되었던 부분들대신 부모요소에게 적용 */
+/* 2. i에 직접 사용해야 하는 경우: i, svg 둘을 적용 */
+/* 3. 조건부주석은 IE6~9까지만 적용 즉 10이후는 기본사용내용과 같다 -> @supports를 사용 */
+/* 4. ie에서는 fontawesome이 적용이 올바르지 않으므로 script로 fontawesome내부 all.js를 불러온다. */
+
 
 .menu_area li:nth-of-type(1) .menu_img { background-image: url(../../img/icecream.jpg); }
 .menu_area li:nth-of-type(2) .menu_img { background-image: url(../../img/desert.jpg); }
@@ -154,7 +202,7 @@ html,body { width:100%; height:auto; }
     
 
 
-#searchBox > p { 
+#searchBox > p {
     font-family:var(--font-malgun); 
     text-align: center; color:var(--color-white); }
 
@@ -165,7 +213,6 @@ html,body { width:100%; height:auto; }
     font-family:var(--font-malgun); text-align: center; }
 
 .store_search i { margin-left:0.9375rem; }
-
 
 /* snsBox */
 #snsBox { 

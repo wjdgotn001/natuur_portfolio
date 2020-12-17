@@ -15,7 +15,7 @@ var headBox = $('#headBox');
 var viewBox = $('#viewBox');
 var eventBox = $('#eventBox');
 var menuBox = $('#menuBox');
-
+var searchBox = $('#searchBox');
 // import file=============================
 var headImport = function(){
     headBox.append('<script src="../js/src/natuur_mobile_headBox.js"></script>');
@@ -35,6 +35,9 @@ var eventPcImport = function(){
 var menuBoxImport = function(){
     menuBox.append('<script src="../js/src/natuur_menuBox.js"></script>');
 };
+var searchBoxImport = function(){
+    searchBox.append('<script src="../js/src/natuur_searchBox.js"></script>');
+};
 // ========================================
 
 if(nowW === deviceType[0]){
@@ -42,18 +45,22 @@ if(nowW === deviceType[0]){
     viewBox.load( url + 'viewBox.html', viewImport );
     eventBox.load( url + 'eventBox.html' , eventImport );
     menuBox.load( url + 'menuBox.html' );
+    searchBoxImport();
+
     // viewBox.load( url + '' );
 }else if(nowW === deviceType[1]){
     headBox.load( url + 'headBox.html', headImport );
     viewBox.load( url + 'viewBox.html', viewImport );
     eventBox.load( url + 'eventBox.html' , eventImport );
-    menuBox.load( url + 'menuBox.html' );
+    menuBox.load( url + 'menuBox.html');
+    searchBoxImport();
 }
 else{
     headBox.load( pcUrl + 'pc.headBox.html', headPcImport );
     viewBox.load( url + 'viewBox.html', viewImport );
     eventBox.load( url + 'eventBox.html' , eventPcImport );
     menuBox.load( url + 'menuBox.html' , menuBoxImport );
+    searchBoxImport();
 }
 
 

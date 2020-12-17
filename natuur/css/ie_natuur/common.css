@@ -99,7 +99,7 @@ html,body { width:100%; height:auto; }
 
 .eventBtn button { 
     float: left; width:30px; height:41px;
-    transform: translateY(-50%); }
+    transform: translateY(-50%); background-color: #333;}
 .eventBtn button:first-child { float: right; }
 
 .eventBtn i { line-height:41px; color:#9d9d9d; }

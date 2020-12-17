@@ -2,7 +2,7 @@
 
 @media screen and (min-width:64.0625rem) {
   #headBox { 
-    position: relative; z-index: 1000; width:88.75rem; height:31.25rem; margin:auto;
+    position: relative; z-index: 1000; width:1420px; height:31.25rem; margin:auto;
     padding:2.5rem 0.625rem; box-sizing: border-box; }
   #headBox #unbBox { 
     position: absolute; top:2.5rem; right:0.625rem;

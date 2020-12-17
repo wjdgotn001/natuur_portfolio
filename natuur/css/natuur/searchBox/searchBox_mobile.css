@@ -16,6 +16,8 @@
 
     .store_search span { font-size:1.0625rem; }
 
+    .store_search svg {margin-left:0.625rem;}
+
     /* 모달창 */
     .search_area { 
         position: absolute; bottom:0.625rem; left:50%; z-index: 1000;
@@ -41,7 +43,7 @@
 
     .close { position: absolute; top:0.3125rem; right:0.625rem;}
 
-    .close i { font-size:1.5rem; }
+    .close svg { font-size:1.5rem; }
 
     .store_img { 
         position: absolute; left:1.25rem;
