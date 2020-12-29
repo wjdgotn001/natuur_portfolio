@@ -1,12 +1,12 @@
 /* laptop 90rem / design 88.75rem  */
 
 @media screen and (min-width:64.0625rem) {
-  .footBox_wrap { min-width: 88.75rem; background-color:#ededed;}
+  .footBox_wrap { width:100%; background-color:#ededed;}
 
   #footBox {
     position: relative;
-    width:88.75rem; height:27.5rem; margin:auto; 
-    padding:6.25rem 1.875rem 12.5rem; box-sizing: border-box; } 
+    width:100%; max-width:1440px; height:27.5rem; margin:auto; 
+    padding:6.25rem 10px 12.5rem; box-sizing: border-box; } 
   .footer_menu { 
       float: left;
       width:auto;  height:1.875rem; }
@@ -18,19 +18,18 @@
   .footer_menu > li:last-child::after { display:none; }
   .family_site { 
     float: right; 
-    position: absolute; right:3.125rem;
+    position: absolute; right:10px;
     width:19.375rem; height:2.1875rem;  }
 
   #footBox span { 
     position: absolute;
-    left:1.875rem; font-size:0.9375rem; font-family:var(--font-malgun); }
+    left:10px; font-size:0.9375rem; font-family:var(--font-malgun); }
     #footBox span:nth-of-type(1) { top:9.375rem; }
     #footBox span:nth-of-type(2) { top:11.25rem; text-transform: uppercase; }
     
   .family select { width:12.5rem; height:2.1875rem; }
-  #footBox.search{ 
-    width:6.25rem; height:2.1875rem;
-    border:0.0625rem solid #333; 
+  #footBox .search{ 
+    width:90px; height:2.1875rem;
     background-color:var(--color-white); border-radius:0.125rem; }
   .search > a { line-height:2.1875rem;  }
 

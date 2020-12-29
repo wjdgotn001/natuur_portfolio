@@ -16,6 +16,6 @@
   .sns_image > li:nth-child(5) { display:none; }
   .sns_image > li:last-child { display:none; }
 
-  .top_move_btn { font-size: 3rem; }
+  .top_move_btn { font-size: 2rem; margin-left:37vw;/*300px*/ }
 
 }

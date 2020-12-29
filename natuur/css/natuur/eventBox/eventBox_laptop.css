@@ -3,7 +3,7 @@
 @media screen and (min-width:64.0625rem) {
     #eventBox { 
       position: relative; 
-      width:88.75rem; height:50rem; margin:auto;
+      max-width:1440px; height:50rem; margin:auto;
       padding:6.25rem 0.625rem 9.375rem; box-sizing: border-box; }
     #eventBox > h2 { margin-bottom:5.625rem; }
   
@@ -17,7 +17,7 @@
     .event_area { 
       overflow: hidden;
       position: relative; left:50%; transform: translateX(-50%); 
-      width:68.75rem; height:25.625rem; }
+      width:77.4647vw; max-width:1100px; height:25.625rem; }
     .event_area > ul { width:600%; height:auto; } 
     .event_area li { float: left; width:21.25rem; height:25.625rem; }
     .event_area li:last-child { margin-right:0; }

@@ -3,7 +3,7 @@
 @media screen and (min-width:64.0625rem) {
   #viewBox { 
     position: relative; 
-    min-width:88.75rem; height:56.25rem; margin:auto;  }
+    height:56.25rem; margin:auto;  }
   /* indicator */
   .view_indicator { 
     position: absolute; left:50%; transform: translateX(-50%); bottom:3.75rem; 
