@@ -7,10 +7,10 @@
     #snsBox > h2 { font-size:2.5rem; margin-bottom:5rem; }
 
     .sns_image { 
-        width:100%; max-width:1420px; height:17vw;/*220px*/ margin:auto; background-color: brown; }
+        width:100%; max-width:1005px; height:180px; margin:auto;  }
     .sns_image > li { 
         float: left; 
-        width:18%; height:100%;/*190px*/ margin: auto; margin-right:2.4vw;/*35px*/ }
+        width:18%; height:100%; margin: auto; margin-right:25px; }
     .sns_image > li:last-child { margin-right:0; }
 
     .top_move_btn { font-size: 3rem; margin-left:43vw; }

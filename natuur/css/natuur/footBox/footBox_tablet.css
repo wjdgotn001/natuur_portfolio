@@ -4,7 +4,7 @@
     #footBox { 
         position: relative;
         height:15rem; 
-        padding:3.191489vw 5.319184vw 11.914893vw /*1.875rem 3.125rem 7rem*/; box-sizing: border-box; }
+        padding:3.191489vw 4.4680vw 11.914893vw /*1.875rem 2.625rem 7rem*/; box-sizing: border-box; }
     .footer_menu { 
         float:left;
         width:15rem; height:6.25rem; }

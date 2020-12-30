@@ -5,7 +5,7 @@
         position: relative;
         height:37.234042vw; max-height:21.875rem; 
         padding-top:5.319148vw /*3.125rem*/; box-sizing: border-box; }
-    #searchBox > p { font-size:1.125rem; }
+    #searchBox > p { font-size:1.125rem; text-shadow:2px 2px 3px rgba(0, 0, 0, 0.7);  }
 
     .store_search { 
         width:28.723404vw; max-width:16.875rem; height:4.9375rem; margin:auto; 

@@ -6,7 +6,7 @@
         background-attachment: fixed;
         max-width:1440px; height:25rem; margin:auto; padding-top:6.25rem; box-sizing: border-box; }
          
-    #searchBox > p { font-size:1.875rem; }
+    #searchBox > p { font-size:1.875rem; text-shadow:2px 2px 3px rgba(0, 0, 0, 0.7); }
 
     .store_search { 
         width:28.169014vw; max-width:25rem; height:6.875rem; 
