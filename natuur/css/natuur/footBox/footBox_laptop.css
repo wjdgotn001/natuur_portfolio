@@ -5,8 +5,8 @@
 
   #footBox {
     position: relative;
-    width:100%; max-width:1440px; height:27.5rem; margin:auto; 
-    padding:6.25rem 10px 12.5rem; box-sizing: border-box; } 
+    width:100%; max-width:1440px; height:21.25rem; margin:auto; 
+    padding:6.25rem 10px 6.25rem; box-sizing: border-box; } 
   .footer_menu { 
       float: left;
       width:auto;  height:1.875rem; }
