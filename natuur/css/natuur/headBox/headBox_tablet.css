@@ -3,7 +3,7 @@
 @media screen and (min-width:30.0625rem) and (max-width:64rem) {
 #headBox { 
   position: relative;
-  height:15.625rem; padding:1.25rem 4.4680vw 0; box-sizing: border-box; }
+  height:210px; padding:1.25rem 4.4680vw 0; box-sizing: border-box; }
 #unbBox {
   position: absolute; top:1.25rem; left:1.875rem;
   width:16.3125rem; height:1.875rem; }

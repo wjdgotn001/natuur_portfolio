@@ -126,35 +126,14 @@
 
   
   //인디케이터 생성하기
-  var indiLen = Math.ceil(dataFile.length / myViewLen);
-  var indiN = 0;
-  var indiLi;
-  for(; indiN < 6 ; indiN += 1 ){
-    indiCatorUl.append(indiCode);
-    indiLi = indiCatorUl.children('li').eq(indiN);
-    indiLi.find('a').text(indiN + 1);
-  }
-
-  // // 인디케이터 보이는 갯수 조정
-  // var indiViewLen = 5;
-  // var indiView = 0;
-  // indiLi = indiCatorUl.children('li');
-  // var memoryN;
-  
-  // for(; indiView < indiViewLen ; indiView += 1){
-  //   if( indiView < indiViewLen ){
-  //     memoryN = indiView+1;
-  //     continue;
-  //   }else{
-  //     indiLi.eq(indiView).hide();
-  //   }
+  // var indiLen = Math.ceil(dataFile.length / myViewLen);
+  // var indiN = 0;
+  // var indiLi;
+  // for(; indiN < 6 ; indiN += 1 ){
+  //   indiCatorUl.append(indiCode);
+  //   indiLi = indiCatorUl.children('li').eq(indiN);
+  //   indiLi.find('a').text(indiN + 1);
   // }
-
-
- 
- 
-
-
 
 
   });

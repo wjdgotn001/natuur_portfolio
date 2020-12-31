@@ -42,7 +42,22 @@ html,body { width:100%; height:auto; }
 .breadcrumb > li:nth-child(2) { margin-right:0rem;}
 .breadcrumb > li:nth-child(2):before { content:">"; width:0.625rem; height:100%; margin-right:0.625rem; }
 
+.menu_list > li:nth-child(1) span { background-image: url(../../../img/menu_list_icon/ice-cream.png);}
+.menu_list > li:nth-child(2) span { background-image: url(../../../img/menu_list_icon/desert.png);}
+.menu_list > li:nth-child(3) span { background-image: url(../../../img/menu_list_icon/drink.png);}
+.menu_list > li:nth-child(4) span { background-image: url(../../../img/menu_list_icon/coffee.png);}
+.menu_list > li:nth-child(5) span { background-image: url(../../../img/menu_list_icon/cake.png);}
 
+.menu_list li:nth-child(1):hover span { background-image: url(../../../img/menu_list_icon/ice-cream_on.png); }
+.menu_list li:nth-child(1).on span { background-image: url(../../../img/menu_list_icon/ice-cream_on.png); }
+.menu_list li:nth-child(2):hover span { background-image: url(../../../img/menu_list_icon/desert_on.png); }
+.menu_list li:nth-child(2).on span { background-image: url(../../../img/menu_list_icon/desert_on.png); }
+.menu_list li:nth-child(3):hover span { background-image: url(../../../img/menu_list_icon/drink_on.png); }
+.menu_list li:nth-child(3).on span { background-image: url(../../../img/menu_list_icon/drink_on.png); }
+.menu_list li:nth-child(4):hover span { background-image: url(../../../img/menu_list_icon/coffee_on.png); }
+.menu_list li:nth-child(4).on span { background-image: url(../../../img/menu_list_icon/coffee_on.png); }
+.menu_list li:nth-child(5):hover span { background-image: url(../../../img/menu_list_icon/cake_on.png); }
+.menu_list li:nth-child(5).on span { background-image: url(../../../img/menu_list_icon/cake_on.png); }
 
 
 /* footBox */

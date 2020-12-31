@@ -1,27 +1,44 @@
 /* Tablet 64rem  / design 58.75rem  */
 
 @media screen and (min-width:30.0625rem) and (max-width:64rem) {
-    #menuBox { height:56.25rem; padding:8.404255vw 10.851063vw 10.638297vw /*4.9375rem 6.375rem 6.25rem*/; box-sizing: border-box; } 
+    #menuBox { 
+        height:56.25rem; 
+        padding:8.404255vw 10.851063vw 10.638297vw /*4.9375rem 6.375rem 6.25rem*/; 
+        box-sizing: border-box; } 
+
     #menuBox > h2 { margin-bottom:5.4375rem; }
     
     .menu_area { width:100%; max-width:58.75rem; height:auto; }
+
     .menu_area > ul { width: 100%; height:auto; max-height:34.375rem; }
+
     .menu_area li { 
         position: relative;
-        float: left; width:50%; max-width:23.75rem; height:13.9375rem; 
-        margin-bottom: 6rem; padding:1.382978vw 1.595744vw 1.702127vw /*0.8125rem 0.9375rem 1rem */; box-sizing: border-box;
-        }
+        float: left; 
+        width:50%; max-width:23.75rem; height:13.9375rem; margin-bottom: 6rem; 
+        padding:1.382978vw 1.595744vw 1.702127vw /*0.8125rem 0.9375rem 1rem */; 
+        box-sizing: border-box; }
+
     .menu_area li:nth-child(2n) { margin-right:0; float: right; }
+
     .menu_area li:nth-child(3) { margin-bottom:0; }
+
     .menu_area li:nth-child(4) { margin-bottom:0; }
+
     .menu_area dl { position: absolute; width:35vw; max-width:18.75rem; height:4.375rem; }
+
     .menu_area dt { font-size:1.0625rem;  margin-bottom:0.625rem; }
-    .menu_area dd { font-size:0.875rem; font-family:var(--font-malgun); margin-bottom:0.9375rem; }
+
+    .menu_area dd { 
+        font-size:0.875rem; font-family:var(--font-malgun); 
+        margin-bottom:0.9375rem; }
+
     .menu_area dd:nth-of-type(2) { width:5.625rem; height:1.875rem; line-height:1.875rem; }
     
     /* image */
     .menu_img { 
         position: absolute; right:0.3125rem; bottom:0.625rem;
-        width:17.553191vw; max-width:10.3125rem; height:21.063829vw; max-height:12.375rem; }
+        width:17.553191vw; max-width:10.3125rem; 
+        height:21.063829vw; max-height:12.375rem; }
 
 }

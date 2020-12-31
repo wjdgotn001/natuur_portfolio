@@ -2,26 +2,34 @@
 
 @media screen and (max-width:30rem) {
     #menuBox { height:77.5rem; padding:3rem 0 6.5rem; box-sizing: border-box; }
+
     #menuBox > h2 { margin-bottom:2.25rem; }
   
     .menu_area { 
       width:82.608695vw; max-width:23.75rem; height:60rem; margin: auto; }
+
     .menu_area > ul { width: 100%; height: 100%; }
+
     .menu_area li { 
       float: left; width:100%; height:12.25rem; 
       padding:1.25rem 3.125vw /*0.9375rem*/ 4.166666vw /*1.25rem*/; box-sizing: border-box;
       padding-left:4vw; 
       margin:auto; margin-bottom:3.125rem; }
+
     .menu_area li:nth-child(1),
     .menu_area li:nth-child(2),
     .menu_area li:nth-child(3) { padding-top:2.1875rem; }
     .menu_area li:last-child { margin-bottom:0; }
   
     .menu_area dl { float: left; width: 100%; height: 100%; }
+
     .menu_area dt { width:6.25rem; font-size:1.0625rem; margin-bottom:1rem;  }
+
     .menu_area dd:nth-of-type(1) { 
       width:8.75rem; font-size:0.6875rem; font-family:var(--font-nanum); margin-bottom:0.8125rem; } 
+
     .menu_area dd:nth-of-type(2) { width:5.9375rem; height:2.125rem;  }
+    
     .menu_area dd:nth-of-type(2) > a { line-height:2.125rem; font-size:0.875rem; }
   
     /* image */
