@@ -1,16 +1,16 @@
 (function($){
 
   var gnbContent = [
-    { 'titleNav': {'name':'나뚜루', 'link':'natuur.html', 'target':'_blank'},
+    { 'titleNav': {'name':'나뚜루', 'link':'introduce.html', 'target':'_blank'},
       'subNav'  : [{'subT': '나뚜루 소개', 'subLink' : './introduce.html'}, 
                    {'subT': '광고 이야기', 'subLink' : './advertising_story.html'} ] },
 
-    { 'titleNav': {'name':'플래그십','link':'natuur.html', 'target':'_blank'},
+    { 'titleNav': {'name':'플래그십','link':'flagship_menu.html', 'target':'_blank'},
       'subNav'  : [{'subT':'store'}, 
                    {'subT':'menu', 'subLink':'./flagship_menu.html'}, 
                    {'subT':'매장위치'}] },
 
-    { 'titleNav': {'name':'메뉴','link':'natuur.html', 'target':'_blank'},
+    { 'titleNav': {'name':'메뉴','link':'flagship_menu.html', 'target':'_blank'},
       'subNav'  : [{'subT':'신제품/인기제품'},
                    {'subT':'전문점 제품'}] },
 
@@ -21,7 +21,7 @@
       'subNav'  : [{'subT':'진행중인 이벤트'},
                    {'subT':'당첨자 발표'}] },
 
-    { 'titleNav': {'name':'sns','link':'natuur.html', 'target':'_blank'},
+    { 'titleNav': {'name':'sns','link':'https://www.instagram.com/official.natuur/?hl=ko', 'target':'_blank'},
       'subNav'  : [{'subT':'인스타그램', 'subLink':'https://www.instagram.com/official.natuur/?hl=ko'},
                    {'subT':'페이스북', 'subLink':'https://www.facebook.com/official.natuur/'}] }
   ];
@@ -71,5 +71,18 @@
   gnbBoxFindDdLink.eq(-1).on('blur', function(){
     gnbBoxFindDd.stop().slideUp();
   });
+
+
+  //팝업창
+  var popup = $('.popup');
+  var popupBtn = popup.find('button');
+  
+  popupBtn.on('click',function(e){
+    e.preventDefault();
+
+    popup.remove();
+  });
+
+
 
 })(jQuery);

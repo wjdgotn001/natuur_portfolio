@@ -47,7 +47,7 @@
             storyImg.addClass('story_animate');
 
             setTimeout(function(){
-                if(it.scrollTop() >= mainBgOffset+(winH/4) ){
+                if(it.scrollTop() >= mainBgOffset+(winH/5) ){
                     storyP.addClass('story_animate');
                 }
             },700);

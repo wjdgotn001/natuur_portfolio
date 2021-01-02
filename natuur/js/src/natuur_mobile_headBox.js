@@ -66,6 +66,17 @@
       
     });
 
+    //팝업창
+    var popup = $('.popup');
+    var popupBtn = popup.find('button');
+    
+    popupBtn.on('click',function(e){
+      e.preventDefault();
+
+      popup.remove();
+    });
+
+
 
 
   
