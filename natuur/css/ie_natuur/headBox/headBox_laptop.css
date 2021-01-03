@@ -1,12 +1,15 @@
 /* laptop 1440px / design 1420px  */
 
 @media screen and (min-width:1025px) {
+
+
   #headBox { 
-    position: relative; z-index: 1000; width:1420px; height:500px; margin:auto;
+    position: relative; z-index: 1000; 
+    width:100%; max-width:1440px; height:500px; margin:auto;
     padding:40px 10px; box-sizing: border-box; }
   #headBox #unbBox { 
     position: absolute; top:40px; right:10px;
-    width:355px; height:40px;
+    width:355px; height:25px;
     margin-bottom:20px; }
   #headBox > h1 { 
     position: absolute; top:70px; left:50%; z-index: 100;
@@ -15,20 +18,38 @@
     background-image: url(../../../img/logo.png); }
   #headBox a { display:block; width: 100%; height: 100%; }
 
+  .popup { 
+    position: absolute;; top:150px; left:50%; z-index:1100; 
+    transform: translateX(-50%); width:400px; height:260px;
+    padding:15px; box-sizing: border-box; 
+    border:4px solid #005629;
+    background-color: #fff; } 
+    
+  .popup p { font-style:16px; }
+  .popup p:nth-child(1) { line-height:20px; margin-bottom:15px; }
+  .popup .strong { font-weight:600; font-family: 'Malgun Gothic'; color:#005629; }
+  
+  .popup .popup_close { 
+      position: absolute; left:50%; bottom: 15px; transform: translateX(-50%); 
+      width:50px; height:40px; 
+      border:1px solid #333; background-color: #fff; }
+  
+  .popup_close button { width: 100%; height: 100%; }
+  .popup_close span { line-height:40px; font-size: 16px; }
+
   /*unbBox영역 */
   #unbBox > ul { width:100%; height:auto; }
   #unbBox li { float: left; width:32%; height:auto; border-left:1px solid #ddd;   }
-  #unbBox a { line-height:40px; }
+  #unbBox a { line-height:25px; }
   .gnbBox li { float: left; width:16.666666%; height:auto; }
-
+  
   /*gnbBox영역 */
   #gnbBox_wrap { 
     position: absolute; left:50%; transform: translateX(-50%); bottom:165px; 
-    width:1075px; height:60px; border-top:1px solid #333;}
+    width:98%; max-width:1075px; height:60px; border-top:1px solid #333;}
   .gnbBox { width:100%; height:auto; background-color: #fff; }
-  .gnbBox_menu { float: left; width:auto; min-width:700px; height: 100%; margin-right:50px; }
-  .gnbBox_menu > li { float: left; width:140px; height:100%; margin-right:15px; }
-  .gnbBox_menu > li:last-child { margin-right:0; }
+  .gnbBox_menu { float: left; width:85%; height: 100%; }
+  .gnbBox_menu > li { float: left; width:140px; height:100%; }
   #gnbBox_wrap::before { 
     display:block; content:" "; 
     position: absolute; left: 0; bottom: 0; 
@@ -49,7 +70,7 @@
   .gnbBox a:focus { color:#005629;}
 /* ===================================================== */
   /*gnb_etc영역*/
-  #headBox .gnb_etc { float: right; width:110px; height:auto; margin-top:10px; }
+  #headBox .gnb_etc { float: right; width:100px; height:auto; margin-top:10px; }
   .gnb_etc > li { float: left; width: 40px; height:40px; margin-right:10px; }
   .gnb_etc > li:nth-child(1) {
      background-image: url(../../../img/ico_facebook.png);

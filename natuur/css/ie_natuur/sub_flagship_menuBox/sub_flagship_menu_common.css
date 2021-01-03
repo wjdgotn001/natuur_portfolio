@@ -14,9 +14,7 @@ html,body { width:100%; height:auto; }
 #headBox > h1 {
     background-position:50% 50%;
     background-repeat:no-repeat;
-    background-size:contain;
-    background-position: 50% 50%; 
-}
+    background-size:95%; }
 
 #unbBox a { 
     display:block; width: 100%; height: 100%;
@@ -34,13 +32,33 @@ html,body { width:100%; height:auto; }
 
 /* flagship_menu */
 .inner_bg_img {
-    width:100%;  
+    width:100%;
     background-repeat: no-repeat;
-    background-size: 100%; }
+    background-size: contain;
+    background-position: 50% 50%;
+ }
 
 .breadcrumb > li { float: left; margin-right:10px;}
 .breadcrumb > li:nth-child(2) { margin-right:0px;}
 .breadcrumb > li:nth-child(2):before { content:">"; width:10px; height:100%; margin-right:10px; }
+
+.menu_list > li:nth-child(1) span { background-image: url(../../../img/menu_list_icon/ice-cream.png);}
+.menu_list > li:nth-child(2) span { background-image: url(../../../img/menu_list_icon/desert.png);}
+.menu_list > li:nth-child(3) span { background-image: url(../../../img/menu_list_icon/drink.png);}
+.menu_list > li:nth-child(4) span { background-image: url(../../../img/menu_list_icon/coffee.png);}
+.menu_list > li:nth-child(5) span { background-image: url(../../../img/menu_list_icon/cake.png);}
+
+.menu_list li:nth-child(1):hover span { background-image: url(../../../img/menu_list_icon/ice-cream_on.png); }
+.menu_list li:nth-child(1).on span { background-image: url(../../../img/menu_list_icon/ice-cream_on.png); }
+.menu_list li:nth-child(2):hover span { background-image: url(../../../img/menu_list_icon/desert_on.png); }
+.menu_list li:nth-child(2).on span { background-image: url(../../../img/menu_list_icon/desert_on.png); }
+.menu_list li:nth-child(3):hover span { background-image: url(../../../img/menu_list_icon/drink_on.png); }
+.menu_list li:nth-child(3).on span { background-image: url(../../../img/menu_list_icon/drink_on.png); }
+.menu_list li:nth-child(4):hover span { background-image: url(../../../img/menu_list_icon/coffee_on.png); }
+.menu_list li:nth-child(4).on span { background-image: url(../../../img/menu_list_icon/coffee_on.png); }
+.menu_list li:nth-child(5):hover span { background-image: url(../../../img/menu_list_icon/cake_on.png); }
+.menu_list li:nth-child(5).on span { background-image: url(../../../img/menu_list_icon/cake_on.png); }
+
 
 /* footBox */
 #footBox { 
@@ -55,7 +73,5 @@ html,body { width:100%; height:auto; }
 .search > a { 
     display:block; width: 100%; height: 100%; 
     font-size: 15px; text-align: center;  }
-
+    
   
- /* 영상 hover */
-.adver_contents li:hover .play_title { background-color:#c54d2c; color:#fff; }

@@ -1,8 +1,8 @@
 @import url(./ie_natuur/common.css);
-@import url(./ie_natuur/headBox.css);
-@import url(./ie_natuur/viewBox.css);
-@import url(./ie_natuur/eventBox.css);
-@import url(./ie_natuur/menuBox.css);
-@import url(./ie_natuur/searchBox.css);
-@import url(./ie_natuur/snsBox.css);
-@import url(./ie_natuur/footBox.css);
+@import url(./ie_natuur/headBox/headBox.css);
+@import url(./ie_natuur/viewBox/viewBox.css);
+@import url(./ie_natuur/eventBox/eventBox.css);
+@import url(./ie_natuur/menuBox/menuBox.css);
+@import url(./ie_natuur/searchBox/searchBox.css);
+@import url(./ie_natuur/snsBox/snsBox.css);
+@import url(./ie_natuur/footBox/footBox.css);

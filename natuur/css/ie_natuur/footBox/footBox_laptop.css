@@ -1,12 +1,12 @@
 /* laptop 1440px / design 1420px  */
 
 @media screen and (min-width:1025px) {
-  .footBox_wrap { width: 100%; background-color:#ededed;}
+  .footBox_wrap { width:100%; background-color:#ededed;}
 
   #footBox {
     position: relative;
-    width:1420px; height:440px; margin:auto; 
-    padding:100px 30px 200px; box-sizing: border-box; } 
+    width:100%; max-width:1440px; height:340px; margin:auto; 
+    padding:100px 10px 100px; box-sizing: border-box; } 
   .footer_menu { 
       float: left;
       width:auto;  height:30px; }
@@ -18,19 +18,18 @@
   .footer_menu > li:last-child::after { display:none; }
   .family_site { 
     float: right; 
-    position: absolute; right:50px;
+    position: absolute; right:10px;
     width:310px; height:35px;  }
 
   #footBox span { 
     position: absolute;
-    left:30px; font-size:15px; font-family:'Malgun Gothic'; }
+    left:10px; font-size:15px; font-family:'Malgun Gothic'; }
     #footBox span:nth-of-type(1) { top:150px; }
     #footBox span:nth-of-type(2) { top:180px; text-transform: uppercase; }
     
   .family select { width:200px; height:35px; }
-  #footBox.search{ 
-    width:100px; height:35px;
-    border:1px solid #333; 
+  #footBox .search{ 
+    width:90px; height:35px;
     background-color:#fff; border-radius:2px; }
   .search > a { line-height:35px;  }
 

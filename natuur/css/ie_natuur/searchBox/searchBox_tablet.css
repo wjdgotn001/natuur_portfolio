@@ -5,15 +5,19 @@
         position: relative;
         height:37.234042vw; max-height:350px; 
         padding-top:5.319148vw /*50px*/; box-sizing: border-box; }
-    #searchBox > p { font-size:18px; }
+    #searchBox > p { font-size:18px; text-shadow:2px 2px 3px rgba(0, 0, 0, 0.7);  }
 
     .store_search { 
         width:28.723404vw; max-width:270px; height:79px; margin:auto; 
         border-radius:40px; margin-top: 6.382978vw/*60px*/; 
         padding:0 2.659574vw /*0 25px*/; box-sizing: border-box; 
         background-color:#fff; }
+        
     .store_search > a { line-height:79px; }
+
     .store_search span { font-size:18px; } 
+
+    .store_search svg {margin-left:10px;}
 
     /* 모달창 */
     .search_area { 
@@ -40,7 +44,7 @@
 
     .close { position: absolute; top:5px; right:10px;}
 
-    .close i { font-size:32px; }
+    .close svg { font-size:32px; }
 
     .store_img { 
         position: absolute; left:20px;

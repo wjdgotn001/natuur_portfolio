@@ -2,7 +2,10 @@
 
 @media screen and (max-width:30rem) {
     #searchBox { position: relative; height:18.125rem; padding-top:3.125rem; box-sizing: border-box; }
-    #searchBox > p {  width:15.625rem; height:auto; margin:auto; margin-bottom:3.125rem; font-size:1.0625rem; text-shadow:2px 2px 3px rgba(0, 0, 0, 0.7);   }
+    #searchBox > p {  
+        width:15.625rem; height:auto; 
+        margin:auto; margin-bottom:3.125rem; 
+        font-size:1.0625rem; text-shadow:0.125rem 0.125rem 0.1875rem rgba(0, 0, 0, 0.7);   }
 
     .store_search { 
         width:53.260869vw; max-width:13.125rem; height:4.0625rem; 

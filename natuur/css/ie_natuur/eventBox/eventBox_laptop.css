@@ -3,7 +3,7 @@
 @media screen and (min-width:1025px) {
     #eventBox { 
       position: relative; 
-      width:1420px; height:800px; margin:auto;
+      max-width:1440px; height:800px; margin:auto;
       padding:100px 10px 150px; box-sizing: border-box; }
     #eventBox > h2 { margin-bottom:90px; }
   
@@ -17,7 +17,7 @@
     .event_area { 
       overflow: hidden;
       position: relative; left:50%; transform: translateX(-50%); 
-      width:1100px; height:410px; }
+      width:77.4647vw; max-width:1100px; height:410px; }
     .event_area > ul { width:600%; height:auto; } 
     .event_area li { float: left; width:340px; height:410px; }
     .event_area li:last-child { margin-right:0; }

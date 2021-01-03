@@ -4,14 +4,16 @@
   #menu_content { 
     position: relative;
     width:auto; max-width:28.75rem; height:auto; margin:auto;
-    padding:0.625rem; padding-bottom: 60px; box-sizing: border-box;
+    padding:0.625rem; padding-bottom: 3.75rem; box-sizing: border-box;
   }
   
   #menu_content > h3 { 
     margin-top:3.75rem; font-size:1.5625rem ; 
     font-family:var(--font-malgun); text-align: center; }
 
-  #menu_content .title { font-size:0.8125rem; margin-top:0.5rem; margin-bottom:0.625rem; text-align: center; color:var(--color-main); }
+  #menu_content .title { 
+    font-size:0.8125rem; margin-top:0.5rem; 
+    margin-bottom:0.625rem; text-align: center; color:var(--color-main); }
 
   .inner_bg_img { height:5.0625rem; background-image: url(../../../img/bg_brand_mobile_img.jpg);  }
 
@@ -21,14 +23,14 @@
       font-size:0.8125rem; font-family:var(--font-malgun); } 
 
   .menu_list { 
-    width:280px; height:80px; margin:auto;
-    margin-top:50px; margin-bottom:30px; }
+    width:17.5rem; height:5rem; margin:auto;
+    margin-top:3.125rem; margin-bottom:1.875rem; }
 
   .menu_list > li { 
     overflow: hidden;
-    float: left; width:18%; max-width:67px; height:100%;/*75px*/ 
-    margin-right:7px; font-family:var(--font-malgun);
-    text-align: center; font-size:10px; }
+    float: left; width:18%; max-width:4.1875rem; height:100%;/*4.6875rem*/ 
+    margin-right:0.4375rem; font-family:var(--font-malgun);
+    text-align: center; font-size:0.625rem; }
 
   .menu_list > li:last-child { margin-right:0; }
 
@@ -42,8 +44,8 @@
 
   .menu_list > li span { 
     display:block;
-    width:40px; height:40px; 
-    margin:auto; margin-bottom:10px;  
+    width:2.5rem; height:2.5rem; 
+    margin:auto; margin-bottom:0.625rem;  
     box-sizing: border-box; }
 
   .list_wrap { width: 100%; height:auto; }
@@ -51,24 +53,24 @@
    /* 게시판영역 */
   .menu_area { 
     overflow: hidden; 
-    width:280px; height:auto; margin:auto; }
+    width:17.5rem; height:auto; margin:auto; }
 
   .menu_area > li { 
    position: relative;
-   float: left; width:130px; height:180px; margin-right:20px; }
+   float: left; width:8.125rem; height:11.25rem; margin-right:1.25rem; }
 
 
   .menu_area > li:nth-child(2n) { margin-right:0; }
 
-  .menu_area a { display:block; width: 100%; height: 100%; padding-top:15px; box-sizing: border-box;}
+  .menu_area a { display:block; width: 100%; height: 100%; padding-top:0.9375rem; box-sizing: border-box;}
 
-  .menu_area a > .product {width: 110px; height:110px; margin:auto; margin-bottom: 20px;} 
+  .menu_area a > .product {width: 6.875rem; height:6.875rem; margin:auto; margin-bottom: 1.25rem;} 
 
   .menu_area a img { width:100%; height:auto;  }
 
   .menu_area p { 
    width: 100%; height:auto; text-align: center;
-   font-family:var(--font-malgun); font-size:13px; }
+   font-family:var(--font-malgun); font-size:0.8125rem; }
 
 
 

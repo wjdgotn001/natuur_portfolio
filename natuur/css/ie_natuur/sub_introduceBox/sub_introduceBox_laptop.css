@@ -1,12 +1,11 @@
 /* sub_introduceBox.laptop.css */
 
 @media screen and (min-width:1025px){
-    html,body { width:auto; min-width:1420px; }
-    #wrap {width:auto; min-width:1420px; margin:auto; }
+    #wrap {width:100%; margin:auto; }
 
     #introduceBox { 
         position: relative; margin:auto;
-        width:auto; max-width:1420px; height:auto;
+        width:100%; max-width:1420px; height:auto;
         padding:0 10px 100px; box-sizing: border-box; }
 
     #introduceBox h3 { 

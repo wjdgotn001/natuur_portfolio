@@ -5,7 +5,7 @@
 
   #menu_content { 
     position: relative;
-    width:auto; max-width:88.75rem; height:auto; margin:auto;
+    width:100%; max-width:88.75rem; height:auto; margin:auto;
     padding:0 0.625rem 12.5rem; box-sizing: border-box; }
   
   #menu_content > h3 { 
@@ -24,13 +24,13 @@
       font-size:1rem; font-family:var(--font-malgun); } 
 
   .menu_list { 
-    width:940px; height:9.375rem; 
+    width:58.75rem; height:9.375rem; 
     margin:auto; margin-top:5rem; margin-bottom:8.125rem; }
 
   .menu_list > li { 
     overflow: hidden;
-    float: left; width:140px; height:100%; 
-    margin-right:60px; font-family:var(--font-malgun);
+    float: left; width:8.75rem; height:100%; 
+    margin-right:3.75rem; font-family:var(--font-malgun);
     text-align: center; font-size:1rem; }
 
   .menu_list > li:last-child { margin-right:0; }
@@ -45,44 +45,41 @@
 
   .menu_list > li span { 
     display:block;
-    width:110px; height:110px; 
-    margin:auto; margin-bottom:10px;  
+    width:6.875rem; height:6.875rem; 
+    margin:auto; margin-bottom:0.625rem;  
     box-sizing: border-box; }
-  
-
-
 
   /* 게시판영역 */
-  .menu_area { overflow: hidden; width:940px; height:900px; margin:auto; }
+  .menu_area { overflow: hidden; width:58.75rem; height:56.25rem; margin:auto; }
 
   .menu_area > li { 
     position: relative;
-    float: left; width:235px; height:300px; 
-    border-right:1px solid #9d9d9d; border-top:1px solid #9d9d9d; box-sizing: border-box;}
+    float: left; width:14.6875rem; height:18.75rem; 
+    border-right:0.0625rem solid var(--color-gray); border-top:0.0625rem solid var(--color-gray); box-sizing: border-box;}
  
 
   .menu_area > li:nth-child(1),
   .menu_area > li:nth-child(5),
-  .menu_area > li:nth-child(9) { border-left:1px solid #9d9d9d; }
+  .menu_area > li:nth-child(9) { border-left:0.0625rem solid var(--color-gray); }
 
   .menu_area > li:nth-child(9), 
   .menu_area > li:nth-child(10),
   .menu_area > li:nth-child(11),
-  .menu_area > li:nth-child(12) { border-bottom:1px solid #9d9d9d;}
+  .menu_area > li:nth-child(12) { border-bottom:0.0625rem solid var(--color-gray);}
 
   .menu_area > li:nth-child(4n) { margin-right:0; }
 
-  .menu_area a { display:block; width: 100%; height: 100%; padding-top:40px; box-sizing: border-box;}
+  .menu_area a { display:block; width: 100%; height: 100%; padding-top:2.5rem; box-sizing: border-box;}
 
-  .menu_area a > .product {width: 180px; height:180px; margin:auto; margin-bottom: 20px;} 
+  .menu_area a > .product {width: 11.25rem; height:11.25rem; margin:auto; margin-bottom: 1.25rem;} 
 
-  /* .menu_area li span:nth-child(1) { display: block; width: 100%; height:180px; } */
+  /* .menu_area li span:nth-child(1) { display: block; width: 100%; height:11.25rem; } */
 
   .menu_area a img { width:100%; height:auto;  }
 
   .menu_area p { 
     width: 100%; height:auto; text-align: center;
-    font-family:var(--font-malgun); font-size:18px;
+    font-family:var(--font-malgun); font-size:1.125rem;
    }
 
 

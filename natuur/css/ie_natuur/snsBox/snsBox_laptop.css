@@ -2,18 +2,17 @@
 
 @media screen and (min-width:1025px) {
     #snsBox { 
-        width:1420px; height:600px; 
-        margin:auto; padding:90px 0 7.042253vw /*90px 0 100px*/; box-sizing: border-box; }
+        max-width:1440px; height:600px; 
+        margin:auto; padding:90px 10px 7.042253vw /*90px 0 100px*/; box-sizing: border-box; }
     #snsBox > h2 { font-size:40px; margin-bottom:80px; }
 
     .sns_image { 
-        width:98%; height:230px; margin:auto; }
+        width:100%; max-width:1005px; height:180px; margin:auto;  }
     .sns_image > li { 
         float: left; 
-        width:18%; height:230px;
-        margin-right:34px; background-color:#e9e9e9;}
+        width:18%; height:100%; margin: auto; margin-right:25px; }
     .sns_image > li:last-child { margin-right:0; }
 
-    .top_move_btn { left:50%; transform: translateX(800px); font-size: 64px; color:#005629; }
+    .top_move_btn { font-size: 48px; margin-left:43vw; }
 
 }
