@@ -1,8 +1,8 @@
 @import url(./natuur/common.css);
-@import url(./natuur/headBox.css);
-@import url(./natuur/viewBox.css);
-@import url(./natuur/eventBox.css);
-@import url(./natuur/menuBox.css);
-@import url(./natuur/searchBox.css);
-@import url(./natuur/snsBox.css);
-@import url(./natuur/footBox.css);
+@import url(./natuur/headBox/headBox.css);
+@import url(./natuur/viewBox/viewBox.css);
+@import url(./natuur/eventBox/eventBox.css);
+@import url(./natuur/menuBox/menuBox.css);
+@import url(./natuur/searchBox/searchBox.css);
+@import url(./natuur/snsBox/snsBox.css);
+@import url(./natuur/footBox/footBox.css);

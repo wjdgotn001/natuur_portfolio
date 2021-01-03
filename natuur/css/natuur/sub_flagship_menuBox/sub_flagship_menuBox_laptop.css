@@ -1,8 +1,7 @@
 /* sub_flagship_menuBox_laptop.css */
 
 @media screen and (min-width:64.0625rem) {
-  html,body { width:auto; min-width:88.75rem; }
-  #wrap {width:auto; min-width:88.75rem; margin:auto; }
+  #wrap {width:100%; margin:auto; }
 
   #menu_content { 
     position: relative;
